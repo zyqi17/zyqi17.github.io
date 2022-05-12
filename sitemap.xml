@@ -4,7 +4,7 @@
     <url>
       <loc>https://zyqi17.github.io/</loc>
       
-      <lastmod>2022-05-12T16:04:34+08:00</lastmod>
+      <lastmod>2022-05-12T21:45:29+08:00</lastmod>
       
       
       
@@ -14,7 +14,7 @@
     <url>
       <loc>https://zyqi17.github.io/posts/</loc>
       
-      <lastmod>2022-05-12T16:04:34+08:00</lastmod>
+      <lastmod>2022-05-12T21:45:29+08:00</lastmod>
       
       
       
@@ -22,19 +22,9 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2022/%E5%8D%9A%E5%A3%AB%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95/</loc>
+      <loc>https://zyqi17.github.io/2022/05/crop-design/</loc>
       
-      <lastmod>2022-05-12T16:04:34+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://zyqi17.github.io/2022/quotes/</loc>
-      
-      <lastmod>2022-05-11T22:19:00+08:00</lastmod>
+      <lastmod>2022-05-12T21:45:29+08:00</lastmod>
       
       
       
@@ -42,9 +32,29 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2022/jokes/</loc>
+      <loc>https://zyqi17.github.io/posts/phd/</loc>
       
-      <lastmod>2022-05-11T22:04:11+08:00</lastmod>
+      <lastmod>2022-05-12T21:45:29+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zyqi17.github.io/2022/05/questions/</loc>
+      
+      <lastmod>2022-05-12T21:30:37+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zyqi17.github.io/categories/bioinfo/</loc>
+      
+      <lastmod>2022-05-12T20:53:46+08:00</lastmod>
       
       
       
@@ -54,7 +64,67 @@
     <url>
       <loc>https://zyqi17.github.io/categories/</loc>
       
-      <lastmod>2018-08-29T00:00:00+00:00</lastmod>
+      <lastmod>2022-05-12T20:53:46+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zyqi17.github.io/2022/05/phenotypeing/</loc>
+      
+      <lastmod>2022-05-12T20:53:46+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zyqi17.github.io/tags/</loc>
+      
+      <lastmod>2022-05-12T16:04:34+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zyqi17.github.io/tags/%E5%AE%9E%E9%AA%8C/</loc>
+      
+      <lastmod>2022-05-12T16:04:34+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zyqi17.github.io/2022/05/yeast-experiment/</loc>
+      
+      <lastmod>2022-05-12T16:04:34+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zyqi17.github.io/2022/05/quotes/</loc>
+      
+      <lastmod>2022-05-11T22:19:00+08:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://zyqi17.github.io/2022/05/jokes/</loc>
+      
+      <lastmod>2022-05-11T22:04:11+08:00</lastmod>
       
       
       
@@ -82,7 +152,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2018/0.48-relnotes/</loc>
+      <loc>https://zyqi17.github.io/2018/08/this-one-goes-to-11/</loc>
       
       <lastmod>2018-08-29T00:00:00+00:00</lastmod>
       
@@ -92,7 +162,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2018/0.47.1-relnotes/</loc>
+      <loc>https://zyqi17.github.io/2018/08/two-bug-fixes/</loc>
       
       <lastmod>2018-08-20T00:00:00+00:00</lastmod>
       
@@ -102,7 +172,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2018/0.47-relnotes/</loc>
+      <loc>https://zyqi17.github.io/2018/08/output-minification-live-reload-fixes-and-more/</loc>
       
       <lastmod>2018-08-17T00:00:00+00:00</lastmod>
       
@@ -112,7 +182,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2018/0.46-relnotes/</loc>
+      <loc>https://zyqi17.github.io/2018/08/the-summer-of-hugo/</loc>
       
       <lastmod>2018-08-01T00:00:00+00:00</lastmod>
       
@@ -122,7 +192,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2018/0.45.1-relnotes/</loc>
+      <loc>https://zyqi17.github.io/2018/07/hugo-0.45.1-two-bug-fixes/</loc>
       
       <lastmod>2018-07-25T00:00:00+00:00</lastmod>
       
@@ -132,7 +202,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2018/0.45-relnotes/</loc>
+      <loc>https://zyqi17.github.io/2018/07/hugo-0.45-revival-of-ref-relref-and-getpage/</loc>
       
       <lastmod>2018-07-22T00:00:00+00:00</lastmod>
       
@@ -142,7 +212,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2018/0.44-relnotes/</loc>
+      <loc>https://zyqi17.github.io/2018/07/hugo-0.44-friday-the-13th-edition/</loc>
       
       <lastmod>2018-07-13T00:00:00+00:00</lastmod>
       
@@ -152,7 +222,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2018/0.43-relnotes/</loc>
+      <loc>https://zyqi17.github.io/2018/07/and-now-hugo-pipes/</loc>
       
       <lastmod>2018-07-09T00:00:00+00:00</lastmod>
       
@@ -172,7 +242,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2017/http2-server-push-in-hugo/</loc>
+      <loc>https://zyqi17.github.io/2017/07/http2-server-push-in-hugo/</loc>
       
       <lastmod>2017-07-24T18:36:00+02:00</lastmod>
       
@@ -182,7 +252,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2014/creating-a-new-theme/</loc>
+      <loc>https://zyqi17.github.io/2014/09/creating-a-new-theme/</loc>
       
       <lastmod>2014-09-28T00:00:00+00:00</lastmod>
       
@@ -193,16 +263,6 @@
   
     <url>
       <loc>https://zyqi17.github.io/tags/hugo/</loc>
-      
-      <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://zyqi17.github.io/tags/</loc>
       
       <lastmod>2014-09-28T00:00:00+00:00</lastmod>
       
@@ -232,7 +292,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2014/goisforlovers/</loc>
+      <loc>https://zyqi17.github.io/2014/07/hugo-template-primer/</loc>
       
       <lastmod>2014-07-28T00:00:00+00:00</lastmod>
       
@@ -302,7 +362,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2014/hugoisforlovers/</loc>
+      <loc>https://zyqi17.github.io/2014/04/getting-started-with-hugo/</loc>
       
       <lastmod>2014-04-02T00:00:00+00:00</lastmod>
       
@@ -312,7 +372,7 @@
     </url>
   
     <url>
-      <loc>https://zyqi17.github.io/2014/migrate-from-jekyll/</loc>
+      <loc>https://zyqi17.github.io/2014/03/migrate-to-hugo-from-jekyll/</loc>
       
       <lastmod>2014-03-10T00:00:00+00:00</lastmod>
       

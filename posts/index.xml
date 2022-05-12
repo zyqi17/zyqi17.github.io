@@ -6,74 +6,52 @@
     <description>Recent content in Posts on LeaveIt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 May 2022 16:04:34 +0800</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>博士资格考试</title>
-      <link>https://zyqi17.github.io/2022/%E5%8D%9A%E5%A3%AB%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95/</link>
-      <pubDate>Thu, 12 May 2022 16:04:34 +0800</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/%E5%8D%9A%E5%A3%AB%E8%B5%84%E6%A0%BC%E8%80%83%E8%AF%95/</guid>
-      <description>qtl定位
-关联分析
-杂种优势
-全基因组选择
-表型组学
-简述转录因子主要功能结构域及其结构特点和功能，并设计实验证明一个蛋白是一个转录因子
- 亚细胞定位在细胞核 酵母转录激活活性分析  Gal4是什么
-酵母单杂、双杂、三杂交的那些事儿 酵母单杂   进化保守的Gal4是真核细胞普遍存在的转录激活因子。
-  酵母单杂（Y1H）是在酵母双杂的基础上发展而来的
-  基本的Y1H分析包括两个载体（图1）：（1）包含感兴趣的DNA（通常被称为诱饵（Bait））和报告基因融合的载体，该报告基因编码的蛋白易于检测；（2）包含感兴趣的转录因子（TF，通常被称为猎物（Prey））和酵母转录激活域（AD）融合的载体。这两种载体都被转入到合适的酵母菌株中，如果TF在酵母核的环境中与DNA结合，那么AD就会诱导报告蛋白的表达。
-  酵母单杂筛库是以DNA为诱饵筛选与其互作的转录因子，如果你想要通过转录因子筛选与其互作的DNA，用到的方法应该是ChIP-seq。
-  酵母双杂   他们表明，Gal4结合一个特定的DNA序列（上游激活序列，UAS），从而在半乳糖存在的情况下激活转录。如果分离成两个片段，N端片段仍然可以与DNA结合，但在半乳糖存在时不激活转录，而激活的功能是由C端片段(Keegan et al., 1986)介导的。然而，这两个片段可以相互作用和非共价重建成一个有功能的Gal4。
-  其基本思想是将感兴趣的两个蛋白X和Y分别融合到Gal4的DBD和AD上，这样X和Y之间的相互作用可以重建Gal4转录因子的功能，然后驱动报告基因的表达
-  </description>
-    </item>
-    
+    <lastBuildDate>Thu, 12 May 2022 21:45:29 +0800</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quotes</title>
-      <link>https://zyqi17.github.io/2022/quotes/</link>
+      <link>https://zyqi17.github.io/2022/05/quotes/</link>
       <pubDate>Wed, 11 May 2022 22:19:00 +0800</pubDate>
       
-      <guid>https://zyqi17.github.io/2022/quotes/</guid>
+      <guid>https://zyqi17.github.io/2022/05/quotes/</guid>
       <description> To see things in the seed, that is genius. (Lao-tzu)  </description>
     </item>
     
     <item>
       <title>Jokes</title>
-      <link>https://zyqi17.github.io/2022/jokes/</link>
+      <link>https://zyqi17.github.io/2022/05/jokes/</link>
       <pubDate>Wed, 11 May 2022 22:04:11 +0800</pubDate>
       
-      <guid>https://zyqi17.github.io/2022/jokes/</guid>
+      <guid>https://zyqi17.github.io/2022/05/jokes/</guid>
       <description>2022年05月11日
 今天晚饭后本来就想跟男友一起吃个甜甜巴斯克，结果吃完饭后男友殷勤的转身就去买了一个红糖馒头还有一个大玉米，共花费4元，吃完撑得很，甜品也吃不下了，我只能对男友竖起大拇指，夸他勤俭持家好男人</description>
     </item>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://zyqi17.github.io/2014/creating-a-new-theme/</link>
+      <link>https://zyqi17.github.io/2014/09/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://zyqi17.github.io/2014/creating-a-new-theme/</guid>
+      <guid>https://zyqi17.github.io/2014/09/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>https://zyqi17.github.io/2014/goisforlovers/</link>
+      <link>https://zyqi17.github.io/2014/07/hugo-template-primer/</link>
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://zyqi17.github.io/2014/goisforlovers/</guid>
+      <guid>https://zyqi17.github.io/2014/07/hugo-template-primer/</guid>
       <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
 This document is a brief primer on using go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>https://zyqi17.github.io/2014/hugoisforlovers/</link>
+      <link>https://zyqi17.github.io/2014/04/getting-started-with-hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://zyqi17.github.io/2014/hugoisforlovers/</guid>
+      <guid>https://zyqi17.github.io/2014/04/getting-started-with-hugo/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo
@@ -84,10 +62,10 @@ Follow the following steps:
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://zyqi17.github.io/2014/migrate-from-jekyll/</link>
+      <link>https://zyqi17.github.io/2014/03/migrate-to-hugo-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://zyqi17.github.io/2014/migrate-from-jekyll/</guid>
+      <guid>https://zyqi17.github.io/2014/03/migrate-to-hugo-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
