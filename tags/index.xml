@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on LeaveIt</title>
-    <link>https:zyqi17.github.io/tags/</link>
+    <link>https://zyqi17.github.io/tags/</link>
     <description>Recent content in Tags on LeaveIt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https:zyqi17.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://zyqi17.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>https:zyqi17.github.io/tags/hugo/</link>
+      <link>https://zyqi17.github.io/tags/hugo/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https:zyqi17.github.io/tags/hugo/</guid>
+      <guid>https://zyqi17.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theme</title>
-      <link>https:zyqi17.github.io/tags/theme/</link>
+      <link>https://zyqi17.github.io/tags/theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https:zyqi17.github.io/tags/theme/</guid>
+      <guid>https://zyqi17.github.io/tags/theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https:zyqi17.github.io/tags/development/</link>
+      <link>https://zyqi17.github.io/tags/development/</link>
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https:zyqi17.github.io/tags/development/</guid>
+      <guid>https://zyqi17.github.io/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https:zyqi17.github.io/tags/go/</link>
+      <link>https://zyqi17.github.io/tags/go/</link>
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https:zyqi17.github.io/tags/go/</guid>
+      <guid>https://zyqi17.github.io/tags/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https:zyqi17.github.io/tags/golang/</link>
+      <link>https://zyqi17.github.io/tags/golang/</link>
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https:zyqi17.github.io/tags/golang/</guid>
+      <guid>https://zyqi17.github.io/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>templates</title>
-      <link>https:zyqi17.github.io/tags/templates/</link>
+      <link>https://zyqi17.github.io/tags/templates/</link>
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https:zyqi17.github.io/tags/templates/</guid>
+      <guid>https://zyqi17.github.io/tags/templates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https:zyqi17.github.io/tags/themes/</link>
+      <link>https://zyqi17.github.io/tags/themes/</link>
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       
-      <guid>https:zyqi17.github.io/tags/themes/</guid>
+      <guid>https://zyqi17.github.io/tags/themes/</guid>
       <description></description>
     </item>
     

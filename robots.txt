@@ -63,4 +63,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https:zyqi17.github.io
+Sitemap: https://zyqi17.github.io/sitemap.xml
