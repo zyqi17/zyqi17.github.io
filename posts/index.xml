@@ -6,7 +6,24 @@
     <description>Recent content in Posts on LeaveIt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 May 2022 21:45:29 +0800</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>刘小磊博士论文</title>
+      <link>https://zyqi17.github.io/2022/05/farmcpu/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zyqi17.github.io/2022/05/farmcpu/</guid>
+      <description>Annotations (5/20/2022, 11:11:21 AM)
+也没对混合线性模型的原理做阐述
+“本文阐述了一个新的算法来解决混合线性模型中存在的混杂问题” (pdf)
+“混合线性模型带来了假阴性” (pdf)
+“最有效的去消除这种假阳性的策略是将群体背景作为固定效应，亲缘关系矩阵作为随机效应加在一个混合线性模型中” (pdf)
+“对于与群体结构相关联的复杂性状，Q+K模型虽然可以很好的控制假阳性，但同时大大降低了模型对候选基因信号的检测强度。随后，各种各样的策略被用于改进混合线性模型的检测效力。” (pdf)
+“随机选取了数据中 10%的位 点用 GAPIT 软件(Lipka et al. 2012)构建亲缘关系矩阵和计算主成分。” (pdf)
+“Genome-wide association study of 107 phenotypes in Arabidopsis thaliana inbred lines” (pdf)
+“当一个关联位点本身或者其 附近上下游一定距离内（例如，50, 000 碱基对）的遗传标记被检测到时，认定为 该关联位点被成功检测。” (pdf)</description>
+    </item>
+    
     <item>
       <title>Quotes</title>
       <link>https://zyqi17.github.io/2022/05/quotes/</link>
@@ -24,7 +41,8 @@
       <guid>https://zyqi17.github.io/2022/05/jokes/</guid>
       <description>2022年05月11日
 今天晚饭后本来就想跟男友一起吃个甜甜巴斯克，结果吃完饭后男友殷勤的转身就去买了一个红糖馒头还有一个大玉米，共花费4元，吃完撑得很，甜品也吃不下了，我只能对男友竖起大拇指，夸他勤俭持家好男人
-2022年05月19日 今天是悲惨的一天。 上个月底上颚打入两个骨钉，打的时候哭呀叫呀，只痛了一个晚上就忘记了，又可以了，叫嚣再来500个钉子也不怕。后面牙龈将钉子覆盖了，我就去医院就医。医生查看后说我的皮筋有点松，但考虑到挂两个月就有效果了，让我再坚持坚持，就强行进行挂皮筋。我忍着剧痛，看着医生的两双眼睛（不要误会，两个医生），随后他们同时发出一声惊叹，伴随着我的剧烈痛感，我就知道事情不妙。原来我的钉子被生拔出来了，他们一脸愧疚，留下我一脸茫然躺在椅子上。 下个月要重新打钉子，呜呜。</description>
+2022年05月19日
+今天是悲惨的一天。 上个月底上颚打入两个骨钉，打的时候哭呀叫呀，只痛了一个晚上就忘记了，又可以了，叫嚣再来500个钉子也不怕。后面牙龈将钉子覆盖了，我就去医院就医。医生查看后说我的皮筋有点松，但考虑到挂两个月就有效果了，让我再坚持坚持，就强行进行挂皮筋。我忍着剧痛，看着医生的两双眼睛（不要误会，两个医生），随后他们同时发出一声惊叹，伴随着我的剧烈痛感，我就知道事情不妙。原来我的钉子被生拔出来了，他们一脸愧疚，留下我一脸茫然躺在椅子上。 下个月要重新打钉子，呜呜。</description>
     </item>
     
     <item>
