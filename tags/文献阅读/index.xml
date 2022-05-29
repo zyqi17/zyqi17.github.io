@@ -24,5 +24,14 @@
 “当一个关联位点本身或者其 附近上下游一定距离内（例如，50, 000 碱基对）的遗传标记被检测到时，认定为 该关联位点被成功检测。” (pdf)</description>
     </item>
     
+    <item>
+      <title>杜雄明paper</title>
+      <link>https://zyqi17.github.io/2022/05/combine_qtl/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zyqi17.github.io/2022/05/combine_qtl/</guid>
+      <description>Because the fiber elongation rate QTLs were negative factors, most of the elite accessions with the best fiber quality likely carried very few favorable alleles for fiber elongation rate (Extended Data Fig. 10).</description>
+    </item>
+    
   </channel>
 </rss>
