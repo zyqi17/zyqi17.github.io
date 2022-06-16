@@ -13,7 +13,8 @@
       <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://zyqi17.github.io/2022/06/the-meaning-of-fiction/</guid>
-      <description>Fifty Shades of Grey may be a fun read, but it&amp;rsquo;s not going to help you probe the minds of others the way War and Peace might. That&amp;rsquo;s the conclusion of a new study, which finds that, compared with mainstream fiction, high-brow literary works do more to improve our ability to understand the thoughts, emotions, and motivations of those around us.</description>
+      <description>Fifty Shades of Grey may be a fun read, but it&amp;rsquo;s not going to help you probe the minds of others the way War and Peace might. That&amp;rsquo;s the conclusion of a new study, which finds that, compared with mainstream fiction, high-brow literary works do more to improve our ability to understand the thoughts, emotions, and motivations of those around us.
+https://www.science.org/content/article/want-read-minds-read-good-books</description>
     </item>
     
     <item>
@@ -107,6 +108,16 @@ Follow the following steps:
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>工作状态</title>
+      <link>https://zyqi17.github.io/1/01/%E5%B7%A5%E4%BD%9C%E7%8A%B6%E6%80%81/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zyqi17.github.io/1/01/%E5%B7%A5%E4%BD%9C%E7%8A%B6%E6%80%81/</guid>
+      <description>抓住真正重要的东西，忽略不重要的东西。
+ 混合线性模型  </description>
     </item>
     
   </channel>
