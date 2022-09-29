@@ -143,5 +143,14 @@ Follow the following steps:
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
     </item>
     
+    <item>
+      <title>deep principles</title>
+      <link>https://zyqi17.github.io/1/01/deep-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zyqi17.github.io/1/01/deep-principles/</guid>
+      <description>https://codefol.io/posts/the-forty-year-programmer/</description>
+    </item>
+    
   </channel>
 </rss>
