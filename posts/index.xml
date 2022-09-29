@@ -6,7 +6,16 @@
     <description>Recent content in Posts on LeaveIt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>deep principles</title>
+      <link>https://zyqi17.github.io/2022/09/deep-principles/</link>
+      <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zyqi17.github.io/2022/09/deep-principles/</guid>
+      <description>https://codefol.io/posts/the-forty-year-programmer/</description>
+    </item>
+    
     <item>
       <title>反式调控突变的多效性</title>
       <link>https://zyqi17.github.io/2022/06/%E5%8F%8D%E5%BC%8F%E8%B0%83%E6%8E%A7%E7%AA%81%E5%8F%98%E7%9A%84%E5%A4%9A%E6%95%88%E6%80%A7/</link>
@@ -141,15 +150,6 @@ Follow the following steps:
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>deep principles</title>
-      <link>https://zyqi17.github.io/1/01/deep-principles/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/1/01/deep-principles/</guid>
-      <description>https://codefol.io/posts/the-forty-year-programmer/</description>
     </item>
     
   </channel>
