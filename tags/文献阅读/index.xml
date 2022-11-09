@@ -19,7 +19,7 @@
 对于与群体结构相关联的复杂性状，Q+K模型虽然可以很好的控制假阳性，但同时大大降低了模型对候选基因信号的检测强度。随后，各种各样的策略被用于改进混合线性模型的检测效力。 (pdf)
 随机选取了数据中10%的位点用 GAPIT 软件(Lipka et al. 2012)构建亲缘关系矩阵和计算主成分。 (pdf)
 Genome-wide association study of 107 phenotypes in Arabidopsis thaliana inbred lines (pdf)
-当一个关联位点本身或者其附近上下游一定距离内（例如，50, 000 碱基对）的遗传标记被检测到时，认定为 该关联位点被成功检测。 (pdf)</description>
+当一个关联位点本身或者其附近上下游一定距离内（例如，50,000碱基对）的遗传标记被检测到时，认定为该关联位点被成功检测。 (pdf)</description>
     </item>
     
   </channel>
