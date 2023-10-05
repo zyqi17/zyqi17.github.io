@@ -1,163 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on LeaveIt</title>
-    <link>https://zyqi17.github.io/posts/</link>
-    <description>Recent content in Posts on LeaveIt</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>deep principles</title>
-      <link>https://zyqi17.github.io/2022/09/deep-principles/</link>
-      <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/09/deep-principles/</guid>
-      <description>https://codefol.io/posts/the-forty-year-programmer/</description>
-    </item>
-    
-    <item>
-      <title>反式调控突变的多效性</title>
-      <link>https://zyqi17.github.io/2022/06/%E5%8F%8D%E5%BC%8F%E8%B0%83%E6%8E%A7%E7%AA%81%E5%8F%98%E7%9A%84%E5%A4%9A%E6%95%88%E6%80%A7/</link>
-      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/06/%E5%8F%8D%E5%BC%8F%E8%B0%83%E6%8E%A7%E7%AA%81%E5%8F%98%E7%9A%84%E5%A4%9A%E6%95%88%E6%80%A7/</guid>
-      <description>Pleiotropic effects of trans-regulatory mutations on fitness and gene expression   We use the effects of cis-regulatory mutations to infer effects of trans-regulatory mutations attributable to impacts beyond the focal gene, revealing a distribution of pleiotropic effects.
-  The more widespread and deleterious effects of trans-regulatory mutations we observed are consistent with their decreasing relative contribution to expression differences over evolutionary time.
-  Prior work has shown that trans-regulatory variants appear to be the primary source of mRNA expression differences within a species but the relative contribution of cis-regulatory variants often increases with evolutionary time (2–6).</description>
-    </item>
-    
-    <item>
-      <title>马尔克斯</title>
-      <link>https://zyqi17.github.io/2022/06/%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF/</link>
-      <pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/06/%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF/</guid>
-      <description>Inside the four walls of that room lay the immense delta of the Magdalena river, the grey frothy sea of Colombia’s Caribbean coast, the suffocating swamps of the Ciénaga, the interminable geometries of the banana plantations, and a long railway line that ran into the farthest territories of his heart. It ended at the village of Aracataca, now renamed by him Macondo, where his maternal grandparents had brought him up amid prospectors, fornicators, gypsies, scoundrels and virginal girls bent over their sewing frames.</description>
-    </item>
-    
-    <item>
-      <title>遗传异质性</title>
-      <link>https://zyqi17.github.io/2022/06/%E9%81%97%E4%BC%A0%E5%BC%82%E8%B4%A8%E6%80%A7/</link>
-      <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/06/%E9%81%97%E4%BC%A0%E5%BC%82%E8%B4%A8%E6%80%A7/</guid>
-      <description>Revisiting a GWAS peak in Arabidopsis thaliana reveals possible confounding by genetic heterogeneity Magnus Nordborg实验室的工作 JOINING THE LAB We are always looking for talented new group members. Backgrounds vary widely, from plant molecular biology to statistics, but everyone is expected to be willing to learn to analyze their own data.
-Prospective students and postdocs should write me directly, explaining what you are interested in, and why. Please attach a CV. Postdocs are expected to have at least one first-author publication in a major international journal.</description>
-    </item>
-    
-    <item>
-      <title>Attitude</title>
-      <link>https://zyqi17.github.io/2022/06/attitude/</link>
-      <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/06/attitude/</guid>
-      <description>抓住真正重要的东西，忽略不重要的东西。
- 混合线性模型  数学技能的缺失阻碍了更加深入的思考。（也就是不能精确的描述一个问题）</description>
-    </item>
-    
-    <item>
-      <title>the meaning of fiction</title>
-      <link>https://zyqi17.github.io/2022/06/the-meaning-of-fiction/</link>
-      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/06/the-meaning-of-fiction/</guid>
-      <description>Fifty Shades of Grey may be a fun read, but it&amp;rsquo;s not going to help you probe the minds of others the way War and Peace might. That&amp;rsquo;s the conclusion of a new study, which finds that, compared with mainstream fiction, high-brow literary works do more to improve our ability to understand the thoughts, emotions, and motivations of those around us.
-https://www.science.org/content/article/want-read-minds-read-good-books</description>
-    </item>
-    
-    <item>
-      <title>刘小磊博士论文</title>
-      <link>https://zyqi17.github.io/2022/05/farmcpu/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/05/farmcpu/</guid>
-      <description>本文阐述了一个新的算法来解决混合线性模型中存在的混杂问题 (pdf)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - LoveIt</title>
+        <link>https://zyqi17.github.io/posts/</link>
+        <description>All Posts | LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 Oct 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>订婚</title>
+    <link>https://zyqi17.github.io/2023/10/engagement/</link>
+    <pubDate>Thu, 05 Oct 2023 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/2023/10/engagement/</guid>
+    <description><![CDATA[2023年10月12日，与庆游订婚。
+执子之手，与子偕老。]]></description>
+</item>
+<item>
+    <title>不要害怕搞坏软件</title>
+    <link>https://zyqi17.github.io/2023/06/%E4%B8%8D%E8%A6%81%E5%AE%B3%E6%80%95%E6%90%9E%E5%9D%8F%E8%BD%AF%E4%BB%B6/</link>
+    <pubDate>Thu, 01 Jun 2023 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/2023/06/%E4%B8%8D%E8%A6%81%E5%AE%B3%E6%80%95%E6%90%9E%E5%9D%8F%E8%BD%AF%E4%BB%B6/</guid>
+    <description><![CDATA[对待软件不能有害怕搞坏的心态。大不了重装。]]></description>
+</item>
+<item>
+    <title>deep principles</title>
+    <link>https://zyqi17.github.io/2022/09/deep-principles/</link>
+    <pubDate>Thu, 29 Sep 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/2022/09/deep-principles/</guid>
+    <description><![CDATA[https://codefol.io/posts/the-forty-year-programmer/]]></description>
+</item>
+<item>
+    <title>反式调控突变的多效性</title>
+    <link>https://zyqi17.github.io/2022/06/%E5%8F%8D%E5%BC%8F%E8%B0%83%E6%8E%A7%E7%AA%81%E5%8F%98%E7%9A%84%E5%A4%9A%E6%95%88%E6%80%A7/</link>
+    <pubDate>Sat, 25 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/2022/06/%E5%8F%8D%E5%BC%8F%E8%B0%83%E6%8E%A7%E7%AA%81%E5%8F%98%E7%9A%84%E5%A4%9A%E6%95%88%E6%80%A7/</guid>
+    <description><![CDATA[Pleiotropic effects of trans-regulatory mutations on fitness and gene expression We use the effects of cis-regulatory mutations to infer effects of trans-regulatory mutations attributable to impacts beyond the focal gene, revealing a distribution of pleiotropic effects.
+The more widespread and deleterious effects of trans-regulatory mutations we observed are consistent with their decreasing relative contribution to expression differences over evolutionary time.
+Prior work has shown that trans-regulatory variants appear to be the primary source of mRNA expression differences within a species but the relative contribution of cis-regulatory variants often increases with evolutionary time (2–6).]]></description>
+</item>
+<item>
+    <title>马尔克斯</title>
+    <link>https://zyqi17.github.io/2022/06/%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF/</link>
+    <pubDate>Sat, 25 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/2022/06/%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF/</guid>
+    <description><![CDATA[Inside the four walls of that room lay the immense delta of the Magdalena river, the grey frothy sea of Colombia’s Caribbean coast, the suffocating swamps of the Ciénaga, the interminable geometries of the banana plantations, and a long railway line that ran into the farthest territories of his heart. It ended at the village of Aracataca, now renamed by him Macondo, where his maternal grandparents had brought him up amid prospectors, fornicators, gypsies, scoundrels and virginal girls bent over their sewing frames.]]></description>
+</item>
+<item>
+    <title>遗传异质性</title>
+    <link>https://zyqi17.github.io/2022/06/%E9%81%97%E4%BC%A0%E5%BC%82%E8%B4%A8%E6%80%A7/</link>
+    <pubDate>Fri, 17 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/2022/06/%E9%81%97%E4%BC%A0%E5%BC%82%E8%B4%A8%E6%80%A7/</guid>
+    <description><![CDATA[Revisiting a GWAS peak in Arabidopsis thaliana reveals possible confounding by genetic heterogeneity Magnus Nordborg实验室的工作 JOINING THE LAB We are always looking for talented new group members. Backgrounds vary widely, from plant molecular biology to statistics, but everyone is expected to be willing to learn to analyze their own data.
+Prospective students and postdocs should write me directly, explaining what you are interested in, and why. Please attach a CV. Postdocs are expected to have at least one first-author publication in a major international journal.]]></description>
+</item>
+<item>
+    <title>Attitude</title>
+    <link>https://zyqi17.github.io/2022/06/attitude/</link>
+    <pubDate>Thu, 16 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/2022/06/attitude/</guid>
+    <description><![CDATA[抓住真正重要的东西，忽略不重要的东西。
+混合线性模型 数学技能的缺失阻碍了更加深入的思考。（也就是不能精确的描述一个问题）]]></description>
+</item>
+<item>
+    <title>the meaning of fiction</title>
+    <link>https://zyqi17.github.io/2022/06/the-meaning-of-fiction/</link>
+    <pubDate>Sun, 05 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/2022/06/the-meaning-of-fiction/</guid>
+    <description><![CDATA[Fifty Shades of Grey may be a fun read, but it&rsquo;s not going to help you probe the minds of others the way War and Peace might. That&rsquo;s the conclusion of a new study, which finds that, compared with mainstream fiction, high-brow literary works do more to improve our ability to understand the thoughts, emotions, and motivations of those around us.
+https://www.science.org/content/article/want-read-minds-read-good-books]]></description>
+</item>
+<item>
+    <title>刘小磊博士论文</title>
+    <link>https://zyqi17.github.io/2022/05/farmcpu/</link>
+    <pubDate>Fri, 20 May 2022 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/2022/05/farmcpu/</guid>
+    <description><![CDATA[本文阐述了一个新的算法来解决混合线性模型中存在的混杂问题 (pdf)
 混合线性模型带来了假阴性 (pdf)
 最有效的去消除这种假阳性的策略是将群体背景作为固定效应，亲缘关系矩阵作为随机效应加在一个混合线性模型中 (pdf)
 对于与群体结构相关联的复杂性状，Q+K模型虽然可以很好的控制假阳性，但同时大大降低了模型对候选基因信号的检测强度。随后，各种各样的策略被用于改进混合线性模型的检测效力。 (pdf)
 随机选取了数据中10%的位点用 GAPIT 软件(Lipka et al. 2012)构建亲缘关系矩阵和计算主成分。 (pdf)
 Genome-wide association study of 107 phenotypes in Arabidopsis thaliana inbred lines (pdf)
-当一个关联位点本身或者其附近上下游一定距离内（例如，50,000碱基对）的遗传标记被检测到时，认定为该关联位点被成功检测。 (pdf)</description>
-    </item>
-    
-    <item>
-      <title>Quotes</title>
-      <link>https://zyqi17.github.io/2022/05/quotes/</link>
-      <pubDate>Wed, 11 May 2022 22:19:00 +0800</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/05/quotes/</guid>
-      <description>  To see things in the seed, that is genius. (Lao-tzu)
-  最聪明的程序员永远能意识到自己头脑的有限性，因此他们会充分谦卑的的对待自己的任务，并且避免那些看似聪明的技巧。——Edsger Dijkstra
-  我对语言的强调也源于一个坚定的信念，即语言会塑造我们的思想。你无法回答一个你提不出来的问题，你也无法提出一个你的语音不能描述的问题。——Judea Pearl The Book of Why
-  All models are wrong, but some are useful.
-  Keep it simple, stupid.
-  She&amp;rsquo;s never gonna let us relax.
-  What I cannot create, I do not understand. 费曼
-  通过向别人清楚的解说某件事，来确认自己是否真正弄懂，是一种快速学习的方法。费曼
-  </description>
-    </item>
-    
-    <item>
-      <title>Jokes</title>
-      <link>https://zyqi17.github.io/2022/05/jokes/</link>
-      <pubDate>Wed, 11 May 2022 22:04:11 +0800</pubDate>
-      
-      <guid>https://zyqi17.github.io/2022/05/jokes/</guid>
-      <description>2022年05月11日
-今天晚饭后本来就想跟男友一起吃个甜甜巴斯克，结果吃完饭后男友殷勤的转身就去买了一个红糖馒头还有一个大玉米，共花费4元，吃完撑得很，甜品也吃不下了，我只能对男友竖起大拇指，夸他勤俭持家好男人
-2022年05月19日
-今天是悲惨的一天。 上个月底上颚打入两个骨钉，打的时候哭呀叫呀，只痛了一个晚上就忘记了，又可以了，叫嚣再来500个钉子也不怕。后面牙龈将钉子覆盖了，我就去医院就医。医生查看后说我的皮筋有点松，但考虑到挂两个月就有效果了，让我再坚持坚持，就强行进行挂皮筋。我忍着剧痛，看着医生的两双眼睛（不要误会，两个医生），随后他们同时发出一声惊叹，伴随着我的剧烈痛感，我就知道事情不妙。原来我的钉子被生拔出来了，他们一脸愧疚，留下我一脸茫然躺在椅子上。 下个月要重新打钉子，呜呜。
-2022年08月11日
-今天我给亲爱的小七新学了一道日式料理鸡蛋三明治，但是煮鸡蛋的时候火太猛煮爆炸了，不是十分熟就捞出来切了，裹在吐司里做成了鸡蛋三明治。结果小七吃着吃着呕了差点吐出来，我问他怎么样不好吃么，他说还可以。之后，他长叹一声，说西方的饮食还是不适合自己，估计没好意思打击我说难吃。可怜了我的小七，为啥国产鸡蛋煮出来那么腥，我的小七可能以后再也不想吃这道料理了。
-2022年09月03日
-今天上班路上遇交警查电动车，庆幸这两天上了牌照应该没问题，且大妈们一个个骑的比我还快扬长而去，我觉得我应该也没什么问题，直到交警对我招起了小手，说我没带头盔需要学习，说着就让我扫二维码输入他的警号看视频答题，我猜他估计是为了指标专找年轻人下手，还心生抱怨说不拦大妈，之后交警大哥跟我闲聊问我之前学习过没有，是不是大一新生，还问我是不是开学了，我觉得今天这题要好好答了！谢谢交警叔叔的教育！</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://zyqi17.github.io/2014/09/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2014/09/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://zyqi17.github.io/2014/07/hugo-template-primer/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2014/07/hugo-template-primer/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://zyqi17.github.io/2014/04/getting-started-with-hugo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2014/04/getting-started-with-hugo/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://zyqi17.github.io/2014/03/migrate-to-hugo-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/2014/03/migrate-to-hugo-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-  </channel>
+当一个关联位点本身或者其附近上下游一定距离内（例如，50,000碱基对）的遗传标记被检测到时，认定为该关联位点被成功检测。 (pdf)]]></description>
+</item>
+<item>
+    <title>博士资格考试</title>
+    <link>https://zyqi17.github.io/posts/phd/</link>
+    <pubDate>Thu, 12 May 2022 21:45:29 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/posts/phd/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

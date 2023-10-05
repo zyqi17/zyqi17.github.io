@@ -1,162 +1,112 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noodp"/>
-  <meta name="author" content="Jerry.Qi">
-  
-  
-  
-  <link rel="prev" href="https://zyqi17.github.io/2014/04/getting-started-with-hugo/" />
-  <link rel="next" href="https://zyqi17.github.io/2014/09/creating-a-new-theme/" />
-  <link rel="canonical" href="https://zyqi17.github.io/2014/07/hugo-template-primer/" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title>
-       
-       
-           (Hu)go Template Primer | LeaveIt
-       
-  </title>
-  <meta name="title" content="(Hu)go Template Primer | LeaveIt">
-    
-  
-  <link rel="stylesheet" href="/font/iconfont.css">
-  <link rel="stylesheet" href="/css/main.min.css">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>(Hu)go Template Primer - LoveIt</title><meta name="Description" content=""><meta property="og:title" content="(Hu)go Template Primer" />
+<meta property="og:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zyqi17.github.io/2014/07/hugo-template-primer/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2014-07-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-07-28T00:00:00+00:00" /><meta property="og:site_name" content="My cool site" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="(Hu)go Template Primer"/>
+<meta name="twitter:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates."/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zyqi17.github.io/2014/07/hugo-template-primer/" /><link rel="prev" href="https://zyqi17.github.io/2014/04/getting-started-with-hugo/" /><link rel="next" href="https://zyqi17.github.io/2014/09/creating-a-new-theme/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "(Hu)go Template Primer",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/zyqi17.github.io\/2014\/07\/hugo-template-primer\/"
+        },"genre": "posts","keywords": "go, golang, templates, themes, development","wordcount":  1488 ,
+        "url": "https:\/\/zyqi17.github.io\/2014\/07\/hugo-template-primer\/","datePublished": "2014-07-28T00:00:00+00:00","dateModified": "2014-07-28T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-
-  
-  
- 
-
-<script type="application/ld+json">
- "@context" : "http://schema.org",
-    "@type" : "BlogPosting",
-    "mainEntityOfPage": {
-         "@type": "WebPage",
-         "@id": "https:\/\/zyqi17.github.io"
-    },
-    "articleSection" : "posts",
-    "name" : "(Hu)go Template Primer",
-    "headline" : "(Hu)go Template Primer",
-    "description" : "Hugo uses the excellent go html\/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.\nThis document is a brief primer on using go templates.",
-    "inLanguage" : "en-us",
-    "author" : "Jerry.Qi",
-    "creator" : "Jerry.Qi",
-    "publisher": "Jerry.Qi",
-    "accountablePerson" : "Jerry.Qi",
-    "copyrightHolder" : "Jerry.Qi",
-    "copyrightYear" : "2014",
-    "datePublished": "2014-07-28 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2014-07-28 00:00:00 \u002b0000 UTC",
-    "url" : "https:\/\/zyqi17.github.io\/2014\/07\/hugo-template-primer\/",
-    "wordCount" : "1488",
-    "keywords" : [ "go","golang","templates","themes","development", "LeaveIt"]
-}
-</script>
-
-</head>
-
-  
-
-
-  <body class="">
-    <div class="wrapper">
-        <nav class="navbar">
-    <div class="container">
-        <div class="navbar-header header-logo">
-        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://zyqi17.github.io">LeaveIt</a>
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="LoveIt">My cool site</a>
         </div>
-        <div class="menu navbar-right">
-                
-                
-                <a class="menu-item" href="/posts/" title="">Blog</a>
-                
-                <a class="menu-item" href="/categories/" title="">Categories</a>
-                
-                <a class="menu-item" href="/tags/" title="">Tags</a>
-                
-                <a class="menu-item" href="/about/" title="">About</a>
-                
-                <a class="menu-item" href="/about/" title="About Hugo">About Hugo</a>
-                
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Blog </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="/about/" title="About Hugo"> About Hugo </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
         </div>
     </div>
-</nav>
-<nav class="navbar-mobile" id="nav-mobile" style="display: none">
-     <div class="container">
-        <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://zyqi17.github.io">LeaveIt</a></div>
-            <div class="menu-toggle">
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="LoveIt">My cool site</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-     
-          <div class="menu" id="mobile-menu">
-                
-                
-                <a class="menu-item" href="/posts/" title="">Blog</a>
-                
-                <a class="menu-item" href="/categories/" title="">Categories</a>
-                
-                <a class="menu-item" href="/tags/" title="">Tags</a>
-                
-                <a class="menu-item" href="/about/" title="">About</a>
-                
-                <a class="menu-item" href="/about/" title="About Hugo">About Hugo</a>
-                
-        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Blog</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="/about/" title="About Hugo">About Hugo</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
     </div>
-</nav>
-    	 <main class="main">
-          <div class="container">
-      		
-<article class="post-warp" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">(Hu)go Template Primer</h1>
-        <div class="post-meta">
-                Written by <a itemprop="name" href="https://zyqi17.github.io" rel="author">Jerry.Qi</a> with ♥ 
-                <span class="post-time">
-                on <time datetime=2014-07-28 itemprop="datePublished">July 28, 2014</time>
-                </span>
-                in
-                <i class="iconfont icon-folder"></i>
-                <span class="post-category">
-                        <a href="https://zyqi17.github.io/categories/uncategorized/"> Uncategorized </a>
-                        
-                </span>
-        </div>
-    </header>
-    <div class="post-content">
-        
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">(Hu)go Template Primer</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-category">included in <a href="/categories/uncategorized/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Uncategorized</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2014-07-28">2014-07-28</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1488 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;7 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction-to-go-templates">Introduction to Go Templates</a></li>
+    <li><a href="#basic-syntax">Basic Syntax</a></li>
+    <li><a href="#variables">Variables</a></li>
+    <li><a href="#functions">Functions</a></li>
+    <li><a href="#includes">Includes</a></li>
+    <li><a href="#logic">Logic</a>
+      <ul>
+        <li><a href="#iteration">Iteration</a></li>
+        <li><a href="#conditionals">Conditionals</a></li>
+      </ul>
+    </li>
+    <li><a href="#pipes">Pipes</a></li>
+    <li><a href="#context-aka-the-dot">Context (aka. the dot)</a></li>
+  </ul>
 
-        
-
-        
-        
-     
-          
-          
-          
-
-          
-          
-          
-
-          <p>Hugo uses the excellent <a href="http://golang.org/">go</a> <a href="http://golang.org/pkg/html/template/">html/template</a> library for
+  <ul>
+    <li><a href="#using-content-page-parameters">Using Content (page) Parameters</a></li>
+    <li><a href="#using-site-config-parameters">Using Site (config) Parameters</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Hugo uses the excellent <a href="http://golang.org/" target="_blank" rel="noopener noreffer ">go</a> <a href="http://golang.org/pkg/html/template/" target="_blank" rel="noopener noreffer ">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
 template systems from different languages or frameworks you will find a lot of
 similarities in go templates.</p>
-<p>This document is a brief primer on using go templates. The <a href="http://golang.org/pkg/html/template/">go docs</a>
+<p>This document is a brief primer on using go templates. The <a href="http://golang.org/pkg/html/template/" target="_blank" rel="noopener noreffer ">go docs</a>
 provide more details.</p>
 <h2 id="introduction-to-go-templates">Introduction to Go Templates</h2>
 <p>Go templates provide an extremely simple template language. It adheres to the
@@ -164,7 +114,7 @@ belief that only the most basic of logic belongs in the template or view layer.
 One consequence of this simplicity is that go templates parse very quickly.</p>
 <p>A unique characteristic of go templates is they are content aware. Variables and
 content will be sanitized depending on the context of where they are used. More
-details can be found in the <a href="http://golang.org/pkg/html/template/">go docs</a>.</p>
+details can be found in the <a href="http://golang.org/pkg/html/template/" target="_blank" rel="noopener noreffer ">go docs</a>.</p>
 <h2 id="basic-syntax">Basic Syntax</h2>
 <p>Go lang templates are html files with the addition of variables and
 functions.</p>
@@ -187,7 +137,7 @@ functions.</p>
 <p>Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-<a href="/layout/variables">variables</a> page.</p>
+<a href="/layout/variables" rel="">variables</a> page.</p>
 <p>A variable is accessed by referencing the variable name.</p>
 <pre><code>&lt;title&gt;{{ .Title }}&lt;/title&gt;
 </code></pre>
@@ -198,7 +148,7 @@ page you are rendering. More details are available on the
 <h2 id="functions">Functions</h2>
 <p>Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. <a href="/layout/functions">Hugo template
+available functions with their own. <a href="/layout/functions" rel="">Hugo template
 functions</a> provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -329,18 +279,18 @@ type (supported by your front matter/config format) and use them however
 you want to inside of your templates.</p>
 <h2 id="using-content-page-parameters">Using Content (page) Parameters</h2>
 <p>In each piece of content you can provide variables to be used by the
-templates. This happens in the <a href="/content/front-matter">front matter</a>.</p>
+templates. This happens in the <a href="/content/front-matter" rel="">front matter</a>.</p>
 <p>An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
 doesn&rsquo;t make a lot of sense. We&rsquo;ve defined a variable in our front matter
 of some pages to turn off the TOC from being displayed.</p>
 <p>Here is the example front matter:</p>
-<pre><code>---
-title: &quot;Permalinks&quot;
-date: &quot;2013-11-18&quot;
+<pre tabindex="0"><code>---
+title: &#34;Permalinks&#34;
+date: &#34;2013-11-18&#34;
 aliases:
-  - &quot;/doc/permalinks/&quot;
-groups: [&quot;extras&quot;]
+  - &#34;/doc/permalinks/&#34;
+groups: [&#34;extras&#34;]
 groups_weight: 30
 notoc: true
 ---
@@ -355,141 +305,69 @@ notoc: true
 <p>In your top-level configuration file (eg, <code>config.yaml</code>) you can define site
 parameters, which are values which will be available to you in chrome.</p>
 <p>For instance, you might declare:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#f92672">params</span>:
-  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
-  <span style="color:#f92672">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
-  <span style="color:#f92672">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
-</code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">params</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">CopyrightHTML</span>: <span style="color:#e6db74">&#34;Copyright &amp;#xA9; 2013 John Doe. All Rights Reserved.&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">TwitterUser</span>: <span style="color:#e6db74">&#34;spf13&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">SidebarRecentLimit</span>: <span style="color:#ae81ff">5</span>
+</span></span></code></pre></div><p>Within a footer layout, you might then declare a <code>&lt;footer&gt;</code> which is only
 provided if the <code>CopyrightHTML</code> parameter is provided, and if it is given,
 you would declare it to be HTML-safe, so that the HTML entity is not escaped
 again.  This would let you easily update just your top-level config file each
 January 1st, instead of hunting through your templates.</p>
-<pre><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
-&lt;div class=&quot;text-center&quot;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
+<pre tabindex="0"><code>{{if .Site.Params.CopyrightHTML}}&lt;footer&gt;
+&lt;div class=&#34;text-center&#34;&gt;{{.Site.Params.CopyrightHTML | safeHtml}}&lt;/div&gt;
 &lt;/footer&gt;{{end}}
 </code></pre><p>An alternative way of writing the &ldquo;if&rdquo; and then referencing the same value
 is to use &ldquo;with&rdquo; instead. With rebinds the context <code>.</code> within its scope,
 and skips the block if the variable is absent:</p>
-<pre><code>{{with .Site.Params.TwitterUser}}&lt;span class=&quot;twitter&quot;&gt;
-&lt;a href=&quot;https://twitter.com/{{.}}&quot; rel=&quot;author&quot;&gt;
-&lt;img src=&quot;/images/twitter.png&quot; width=&quot;48&quot; height=&quot;48&quot; title=&quot;Twitter: {{.}}&quot;
- alt=&quot;Twitter&quot;&gt;&lt;/a&gt;
+<pre tabindex="0"><code>{{with .Site.Params.TwitterUser}}&lt;span class=&#34;twitter&#34;&gt;
+&lt;a href=&#34;https://twitter.com/{{.}}&#34; rel=&#34;author&#34;&gt;
+&lt;img src=&#34;/images/twitter.png&#34; width=&#34;48&#34; height=&#34;48&#34; title=&#34;Twitter: {{.}}&#34;
+ alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
 &lt;/span&gt;{{end}}
 </code></pre><p>Finally, if you want to pull &ldquo;magic constants&rdquo; out of your layouts, you can do
 so, such as in this example:</p>
-<pre><code>&lt;nav class=&quot;recent&quot;&gt;
+<pre tabindex="0"><code>&lt;nav class=&#34;recent&#34;&gt;
   &lt;h1&gt;Recent Posts&lt;/h1&gt;
   &lt;ul&gt;{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
-    &lt;li&gt;&lt;a href=&quot;{{.RelPermalink}}&quot;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;{{.RelPermalink}}&#34;&gt;{{.Title}}&lt;/a&gt;&lt;/li&gt;
   {{end}}&lt;/ul&gt;
 &lt;/nav&gt;
-</code></pre>
+</code></pre></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2014-07-28</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://zyqi17.github.io/2014/07/hugo-template-primer/" data-title="(Hu)go Template Primer" data-via="xxoo" data-hashtags="go,golang,templates,themes,development"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://zyqi17.github.io/2014/07/hugo-template-primer/" data-hashtag="go"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://zyqi17.github.io/2014/07/hugo-template-primer/" data-title="(Hu)go Template Primer"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://zyqi17.github.io/2014/07/hugo-template-primer/" data-title="(Hu)go Template Primer"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://zyqi17.github.io/2014/07/hugo-template-primer/" data-title="(Hu)go Template Primer"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
     </div>
 
-    <div class="post-copyright">
-             
-            <p class="copyright-item">
-                <span>Author:</span>
-                <span>Jerry.Qi </span>
-                </p>
-            
-           
-             
-            <p class="copyright-item">
-                    <span>Link:</span>
-                    <a href=https://zyqi17.github.io/2014/07/hugo-template-primer/>https://zyqi17.github.io/2014/07/hugo-template-primer/</span>
-            </p>
-            
-             
-            <p class="copyright-item lincese">
-                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
-            </p>
-            
-    </div>
-
-  
-    <div class="post-tags">
-        
-            <section>
-            <i class="iconfont icon-tag"></i>Tag(s): 
-            
-            <span class="tag"><a href="https://zyqi17.github.io/tags/go/">
-                    #go</a></span>
-            
-            <span class="tag"><a href="https://zyqi17.github.io/tags/golang/">
-                    #golang</a></span>
-            
-            <span class="tag"><a href="https://zyqi17.github.io/tags/templates/">
-                    #templates</a></span>
-            
-            <span class="tag"><a href="https://zyqi17.github.io/tags/themes/">
-                    #themes</a></span>
-            
-            <span class="tag"><a href="https://zyqi17.github.io/tags/development/">
-                    #development</a></span>
-            
-            </section>
-        
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/go/">go</a>,&nbsp;<a href="/tags/golang/">golang</a>,&nbsp;<a href="/tags/templates/">templates</a>,&nbsp;<a href="/tags/themes/">themes</a>,&nbsp;<a href="/tags/development/">development</a></section>
         <section>
-                <a href="javascript:window.history.back();">back</a></span> · 
-                <span><a href="https://zyqi17.github.io">home</a></span>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav">
-        
-        <a href="https://zyqi17.github.io/2014/04/getting-started-with-hugo/" class="prev" rel="prev" title="Getting Started with Hugo"><i class="iconfont icon-left"></i>&nbsp;Getting Started with Hugo</a>
-         
-        
-        <a href="https://zyqi17.github.io/2014/09/creating-a-new-theme/" class="next" rel="next" title="Creating a New Theme">Creating a New Theme&nbsp;<i class="iconfont icon-right"></i></a>
-        
-    </div>
+    <div class="post-nav"><a href="/2014/04/getting-started-with-hugo/" class="prev" rel="prev" title="Getting Started with Hugo"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Getting Started with Hugo</a>
+            <a href="/2014/09/creating-a-new-theme/" class="next" rel="next" title="Creating a New Theme">Creating a New Theme<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
 
-    <div class="post-comment">
-          
-                 
-          
-    </div>
-</article>
-          </div>
-		   </main>
-      <footer class="footer">
-    <div class="copyright">
-        &copy;
-        
-        <span itemprop="copyrightYear">2021 - 2022</span>
-        
-        <span class="with-love">
-    	 <i class="iconfont icon-love"></i> 
-         </span>
-         
-            <span class="author" itemprop="copyrightHolder"><a href="https://zyqi17.github.io">Jerry.Qi</a> | </span> 
-         
-
-         
-		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
-    </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
-    
-  
-
-
-
-     </div>
-  </body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

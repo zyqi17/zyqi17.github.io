@@ -1,161 +1,101 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noodp"/>
-  <meta name="author" content="Jerry.Qi">
-  
-  
-  
-  <link rel="prev" href="https://zyqi17.github.io/2017/07/http2-server-push-in-hugo/" />
-  <link rel="next" href="https://zyqi17.github.io/2018/07/hugo-0.44-friday-the-13th-edition/" />
-  <link rel="canonical" href="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
-  <title>
-       
-       
-           And Now: Hugo Pipes! | LeaveIt
-       
-  </title>
-  <meta name="title" content="And Now: Hugo Pipes! | LeaveIt">
-    
-  
-  <link rel="stylesheet" href="/font/iconfont.css">
-  <link rel="stylesheet" href="/css/main.min.css">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>And Now: Hugo Pipes! - LoveIt</title><meta name="Description" content="Hugo 0.43 adds a powerful and simple to use assets pipeline with SASS/SCSS and much, much more …"><meta property="og:title" content="And Now: Hugo Pipes!" />
+<meta property="og:description" content="Hugo 0.43 adds a powerful and simple to use assets pipeline with SASS/SCSS and much, much more …" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/" /><meta property="og:image" content="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/featured-hugo-43-poster.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2018-07-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-07-09T00:00:00+00:00" /><meta property="og:site_name" content="My cool site" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/featured-hugo-43-poster.png"/>
+<meta name="twitter:title" content="And Now: Hugo Pipes!"/>
+<meta name="twitter:description" content="Hugo 0.43 adds a powerful and simple to use assets pipeline with SASS/SCSS and much, much more …"/>
+<meta name="application-name" content="My cool site">
+<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/" /><link rel="prev" href="https://zyqi17.github.io/2017/07/http2-server-push-in-hugo/" /><link rel="next" href="https://zyqi17.github.io/2018/07/hugo-0.44-friday-the-13th-edition/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "And Now: Hugo Pipes!",
+        "inLanguage": "en-us",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/zyqi17.github.io\/2018\/07\/and-now-hugo-pipes\/"
+        },"genre": "posts","wordcount":  700 ,
+        "url": "https:\/\/zyqi17.github.io\/2018\/07\/and-now-hugo-pipes\/","datePublished": "2018-07-09T00:00:00+00:00","dateModified": "2018-07-09T00:00:00+00:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": "Hugo 0.43 adds a powerful and simple to use assets pipeline with SASS/SCSS and much, much more …"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-
-  
-  
- 
-
-<script type="application/ld+json">
- "@context" : "http://schema.org",
-    "@type" : "BlogPosting",
-    "mainEntityOfPage": {
-         "@type": "WebPage",
-         "@id": "https:\/\/zyqi17.github.io"
-    },
-    "articleSection" : "posts",
-    "name" : "And Now: Hugo Pipes!",
-    "headline" : "And Now: Hugo Pipes!",
-    "description" : "Hugo 0.43 adds a powerful and simple to use assets pipeline with SASS\/SCSS and much, much more …",
-    "inLanguage" : "en-us",
-    "author" : "Jerry.Qi",
-    "creator" : "Jerry.Qi",
-    "publisher": "Jerry.Qi",
-    "accountablePerson" : "Jerry.Qi",
-    "copyrightHolder" : "Jerry.Qi",
-    "copyrightYear" : "2018",
-    "datePublished": "2018-07-09 00:00:00 \u002b0000 UTC",
-    "dateModified" : "2018-07-09 00:00:00 \u002b0000 UTC",
-    "url" : "https:\/\/zyqi17.github.io\/2018\/07\/and-now-hugo-pipes\/",
-    "wordCount" : "700",
-    "keywords" : [  "LeaveIt"]
-}
-</script>
-
-</head>
-
-  
-
-
-  <body class="">
-    <div class="wrapper">
-        <nav class="navbar">
-    <div class="container">
-        <div class="navbar-header header-logo">
-        	<a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://zyqi17.github.io">LeaveIt</a>
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="LoveIt">My cool site</a>
         </div>
-        <div class="menu navbar-right">
-                
-                
-                <a class="menu-item" href="/posts/" title="">Blog</a>
-                
-                <a class="menu-item" href="/categories/" title="">Categories</a>
-                
-                <a class="menu-item" href="/tags/" title="">Tags</a>
-                
-                <a class="menu-item" href="/about/" title="">About</a>
-                
-                <a class="menu-item" href="/about/" title="About Hugo">About Hugo</a>
-                
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Blog </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="/about/" title="About Hugo"> About Hugo </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
         </div>
     </div>
-</nav>
-<nav class="navbar-mobile" id="nav-mobile" style="display: none">
-     <div class="container">
-        <div class="navbar-header">
-            <div>  <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-xihuan"></i></a>&nbsp;<a href="https://zyqi17.github.io">LeaveIt</a></div>
-            <div class="menu-toggle">
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="LoveIt">My cool site</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-     
-          <div class="menu" id="mobile-menu">
-                
-                
-                <a class="menu-item" href="/posts/" title="">Blog</a>
-                
-                <a class="menu-item" href="/categories/" title="">Categories</a>
-                
-                <a class="menu-item" href="/tags/" title="">Tags</a>
-                
-                <a class="menu-item" href="/about/" title="">About</a>
-                
-                <a class="menu-item" href="/about/" title="About Hugo">About Hugo</a>
-                
-        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Blog</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="/about/" title="About Hugo">About Hugo</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
     </div>
-</nav>
-    	 <main class="main">
-          <div class="container">
-      		
-<article class="post-warp" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">And Now: Hugo Pipes!</h1>
-        <div class="post-meta">
-                Written by <a itemprop="name" href="https://zyqi17.github.io" rel="author">Jerry.Qi</a> with ♥ 
-                <span class="post-time">
-                on <time datetime=2018-07-09 itemprop="datePublished">July 9, 2018</time>
-                </span>
-                in
-                <i class="iconfont icon-folder"></i>
-                <span class="post-category">
-                        <a href="https://zyqi17.github.io/categories/releases/"> Releases </a>
-                        
-                </span>
-        </div>
-    </header>
-    <div class="post-content">
-        
-
-        
-
-        
-        
-     
-          
-          
-          
-
-          
-          
-          
-
-          <pre><code>Hugo `0.43` adds a powerful and very simple to use **Assets Pipeline** with **SASS and SCSS** with source map support, **PostCSS** and **minification** and **fingerprinting** and **Subresource Integrity** and ... much more. Oh, did we mention that you can now do **ad-hoc image processing** and execute text resources as Go templates?
+</header><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">And Now: Hugo Pipes!</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-category">included in <a href="/categories/releases/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Releases</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-07-09">2018-07-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;700 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#notes">Notes</a></li>
+    <li><a href="#enhancements">Enhancements</a>
+      <ul>
+        <li><a href="#templates">Templates</a></li>
+        <li><a href="#core">Core</a></li>
+        <li><a href="#other">Other</a></li>
+      </ul>
+    </li>
+    <li><a href="#fixes">Fixes</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><pre><code>Hugo `0.43` adds a powerful and very simple to use **Assets Pipeline** with **SASS and SCSS** with source map support, **PostCSS** and **minification** and **fingerprinting** and **Subresource Integrity** and ... much more. Oh, did we mention that you can now do **ad-hoc image processing** and execute text resources as Go templates?
 </code></pre>
 <p>An example pipeline:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$styles</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">resources</span><span style="color:#a6e22e">.Get</span> <span style="color:#e6db74">&#34;scss/main.scss&#34;</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">toCSS</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">postCSS</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">minify</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">fingerprint</span> <span style="color:#75715e">}}</span>
-&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$styles</span><span style="color:#a6e22e">.Permalink</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span> <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$styles</span><span style="color:#a6e22e">.Data.Integrity</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span> <span style="color:#a6e22e">media</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;screen&#34;</span>&gt;
-</code></pre></div><p>To me, the above is beautiful in its speed and simplicity. It could be printed on a t-shirt. I wrote in the <a href="https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/">Hugo Birthday Post</a> some days ago about the value of a single binary with native and fast implementations. I should have added <em>simplicity</em> as a keyword. There seem to be a misconception that all of this needs to be hard and painful.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go-html-template" data-lang="go-html-template"><span style="display:flex;"><span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$styles</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">resources</span><span style="color:#a6e22e">.Get</span> <span style="color:#e6db74">&#34;scss/main.scss&#34;</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">toCSS</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">postCSS</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">minify</span> <span style="color:#f92672">|</span> <span style="color:#a6e22e">fingerprint</span> <span style="color:#75715e">}}</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">link</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;stylesheet&#34;</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$styles</span><span style="color:#a6e22e">.Permalink</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span> <span style="color:#a6e22e">integrity</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#75715e">{{</span> <span style="color:#a6e22e">$styles</span><span style="color:#a6e22e">.Data.Integrity</span> <span style="color:#75715e">}}</span><span style="color:#e6db74">&#34;</span> <span style="color:#a6e22e">media</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;screen&#34;</span>&gt;
+</span></span></code></pre></div><p>To me, the above is beautiful in its speed and simplicity. It could be printed on a t-shirt. I wrote in the <a href="https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/" target="_blank" rel="noopener noreffer ">Hugo Birthday Post</a> some days ago about the value of a single binary with native and fast implementations. I should have added <em>simplicity</em> as a keyword. There seem to be a misconception that all of this needs to be hard and painful.</p>
 <p>New functions to create <code>Resource</code> objects:</p>
 <ul>
 <li><code>resources.Get</code></li>
@@ -170,151 +110,99 @@
 <li><code>resources.Concat</code>: Concatenates a list of Resource objects. Think of this as a poor man&rsquo;s bundler.</li>
 <li><code>resources.ExecuteAsTemplate</code>: Parses and executes the given Resource and data context (e.g. .Site) as a Go template.</li>
 </ul>
-<p>I, <a href="https://github.com/bep">@bep</a>, implemented this in <a href="https://github.com/gohugoio/hugo/commit/dea71670c059ab4d5a42bd22503f18c087dd22d4">dea71670</a>. We will work hard to get the documentation up to date, but follow the links above for details, and also see this <a href="https://github.com/bep/hugo-sass-test">demo project</a>.</p>
+<p>I, <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a>, implemented this in <a href="https://github.com/gohugoio/hugo/commit/dea71670c059ab4d5a42bd22503f18c087dd22d4" target="_blank" rel="noopener noreffer ">dea71670</a>. We will work hard to get the documentation up to date, but follow the links above for details, and also see this <a href="https://github.com/bep/hugo-sass-test" target="_blank" rel="noopener noreffer ">demo project</a>.</p>
 <p>This release represents <strong>35 contributions by 7 contributors</strong> to the main Hugo code base.
-<a href="https://github.com/bep">@bep</a> leads the Hugo development with a significant amount of contributions, but also a big shoutout to <a href="https://github.com/anthonyfok">@anthonyfok</a>, <a href="https://github.com/openscript">@openscript</a>, and <a href="https://github.com/caarlos0">@caarlos0</a> for their ongoing contributions.
-And a big thanks to <a href="https://github.com/digitalcraftsman">@digitalcraftsman</a> for his relentless work on keeping the themes site in pristine condition and to <a href="https://github.com/kaushalmodi">@kaushalmodi</a> for his great work on the documentation site.</p>
-<p>Many have also been busy writing and fixing the documentation in <a href="https://github.com/gohugoio/hugoDocs">hugoDocs</a>,
-which has received <strong>11 contributions by 5 contributors</strong>. A special thanks to <a href="https://github.com/bep">@bep</a>, <a href="https://github.com/danrl">@danrl</a>, <a href="https://github.com/regisphilibert">@regisphilibert</a>, and <a href="https://github.com/digitalcraftsman">@digitalcraftsman</a> for their work on the documentation site.</p>
+<a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> leads the Hugo development with a significant amount of contributions, but also a big shoutout to <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a>, <a href="https://github.com/openscript" target="_blank" rel="noopener noreffer ">@openscript</a>, and <a href="https://github.com/caarlos0" target="_blank" rel="noopener noreffer ">@caarlos0</a> for their ongoing contributions.
+And a big thanks to <a href="https://github.com/digitalcraftsman" target="_blank" rel="noopener noreffer ">@digitalcraftsman</a> for his relentless work on keeping the themes site in pristine condition and to <a href="https://github.com/kaushalmodi" target="_blank" rel="noopener noreffer ">@kaushalmodi</a> for his great work on the documentation site.</p>
+<p>Many have also been busy writing and fixing the documentation in <a href="https://github.com/gohugoio/hugoDocs" target="_blank" rel="noopener noreffer ">hugoDocs</a>,
+which has received <strong>11 contributions by 5 contributors</strong>. A special thanks to <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a>, <a href="https://github.com/danrl" target="_blank" rel="noopener noreffer ">@danrl</a>, <a href="https://github.com/regisphilibert" target="_blank" rel="noopener noreffer ">@regisphilibert</a>, and <a href="https://github.com/digitalcraftsman" target="_blank" rel="noopener noreffer ">@digitalcraftsman</a> for their work on the documentation site.</p>
 <p>Hugo now has:</p>
 <ul>
-<li>26968+ <a href="https://github.com/gohugoio/hugo/stargazers">stars</a></li>
-<li>443+ <a href="https://github.com/gohugoio/hugo/graphs/contributors">contributors</a></li>
-<li>238+ <a href="http://themes.gohugo.io/">themes</a></li>
+<li>26968+ <a href="https://github.com/gohugoio/hugo/stargazers" target="_blank" rel="noopener noreffer ">stars</a></li>
+<li>443+ <a href="https://github.com/gohugoio/hugo/graphs/contributors" target="_blank" rel="noopener noreffer ">contributors</a></li>
+<li>238+ <a href="http://themes.gohugo.io/" target="_blank" rel="noopener noreffer ">themes</a></li>
 </ul>
 <h2 id="notes">Notes</h2>
 <ul>
-<li>Replace deprecated {Get,}ByPrefix with {Get,}Match <a href="https://github.com/gohugoio/hugo/commit/42ed602580a672e420e1d860384e812f4871ff67">42ed6025</a> <a href="https://github.com/anthonyfok">@anthonyfok</a></li>
+<li>Replace deprecated {Get,}ByPrefix with {Get,}Match <a href="https://github.com/gohugoio/hugo/commit/42ed602580a672e420e1d860384e812f4871ff67" target="_blank" rel="noopener noreffer ">42ed6025</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a></li>
 <li>Hugo is now released with two binary version: One with and one without SCSS/SASS support. At the time of writing, this is only available in the binaries on the GitHub release page. Brew, Snap builds etc. will come. But note that you <strong>only need the extended version if you want to edit SCSS</strong>. For your CI server, or if you don&rsquo;t use SCSS, you will most likely want the non-extended version.</li>
 </ul>
 <h2 id="enhancements">Enhancements</h2>
 <h3 id="templates">Templates</h3>
 <ul>
-<li>Return en empty slice in <code>after</code> instead of error <a href="https://github.com/gohugoio/hugo/commit/f8212d20009c4b5cc6e1ec733d09531eb6525d9f">f8212d20</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4894">#4894</a></li>
-<li>Update internal pagination template to support Bootstrap 4 <a href="https://github.com/gohugoio/hugo/commit/ca1e46efb94e3f3d2c8482cb9434d2f38ffd2683">ca1e46ef</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4881">#4881</a></li>
-<li>Support text/template/parse API change in go1.11 <a href="https://github.com/gohugoio/hugo/commit/9f27091e1067875e2577c331acc60adaef5bb234">9f27091e</a> <a href="https://github.com/anthonyfok">@anthonyfok</a> <a href="https://github.com/gohugoio/hugo/issues/4784">#4784</a></li>
+<li>Return en empty slice in <code>after</code> instead of error <a href="https://github.com/gohugoio/hugo/commit/f8212d20009c4b5cc6e1ec733d09531eb6525d9f" target="_blank" rel="noopener noreffer ">f8212d20</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4894" target="_blank" rel="noopener noreffer ">#4894</a></li>
+<li>Update internal pagination template to support Bootstrap 4 <a href="https://github.com/gohugoio/hugo/commit/ca1e46efb94e3f3d2c8482cb9434d2f38ffd2683" target="_blank" rel="noopener noreffer ">ca1e46ef</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4881" target="_blank" rel="noopener noreffer ">#4881</a></li>
+<li>Support text/template/parse API change in go1.11 <a href="https://github.com/gohugoio/hugo/commit/9f27091e1067875e2577c331acc60adaef5bb234" target="_blank" rel="noopener noreffer ">9f27091e</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a> <a href="https://github.com/gohugoio/hugo/issues/4784" target="_blank" rel="noopener noreffer ">#4784</a></li>
 </ul>
 <h3 id="core">Core</h3>
 <ul>
-<li>Allow forward slash in shortcode names <a href="https://github.com/gohugoio/hugo/commit/de37455ec73cffd039b44e8f6c62d2884b1d6bbd">de37455e</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4886">#4886</a></li>
-<li>Reset the global pages cache on server rebuilds <a href="https://github.com/gohugoio/hugo/commit/128f14efad90886ffef37c01ac1e20436a732f97">128f14ef</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4845">#4845</a></li>
+<li>Allow forward slash in shortcode names <a href="https://github.com/gohugoio/hugo/commit/de37455ec73cffd039b44e8f6c62d2884b1d6bbd" target="_blank" rel="noopener noreffer ">de37455e</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4886" target="_blank" rel="noopener noreffer ">#4886</a></li>
+<li>Reset the global pages cache on server rebuilds <a href="https://github.com/gohugoio/hugo/commit/128f14efad90886ffef37c01ac1e20436a732f97" target="_blank" rel="noopener noreffer ">128f14ef</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4845" target="_blank" rel="noopener noreffer ">#4845</a></li>
 </ul>
 <h3 id="other">Other</h3>
 <ul>
-<li>Bump CircleCI image <a href="https://github.com/gohugoio/hugo/commit/e3df6478f09a7a5fed96aced791fa94fd2c35d1a">e3df6478</a> <a href="https://github.com/bep">@bep</a></li>
-<li>Add Goreleaser extended config <a href="https://github.com/gohugoio/hugo/commit/626afc98254421f5a5edc97c541b10bd81d5bbbb">626afc98</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4908">#4908</a></li>
-<li>Build both hugo and hugo.extended for 0.43 <a href="https://github.com/gohugoio/hugo/commit/e1027c5846b48c4ad450f6cc27e2654c9e0dae39">e1027c58</a> <a href="https://github.com/anthonyfok">@anthonyfok</a> <a href="https://github.com/gohugoio/hugo/issues/4908">#4908</a></li>
-<li>Add temporary build script <a href="https://github.com/gohugoio/hugo/commit/bfc3488b8e8b3dc1ffc6a339ee2dac8dcbdb55a9">bfc3488b</a> <a href="https://github.com/bep">@bep</a></li>
-<li>Add &ldquo;extended&rdquo; to &ldquo;hugo version&rdquo; <a href="https://github.com/gohugoio/hugo/commit/ce84b524f4e94299b5b66afe7ce1a9bd4a9959fc">ce84b524</a> <a href="https://github.com/anthonyfok">@anthonyfok</a> <a href="https://github.com/gohugoio/hugo/issues/4913">#4913</a></li>
-<li>Add a newScratch template func <a href="https://github.com/gohugoio/hugo/commit/2b8d907ab731627f4e2a30442cd729064516c8bb">2b8d907a</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4685">#4685</a></li>
-<li>Add Hugo Piper with SCSS support and much more <a href="https://github.com/gohugoio/hugo/commit/dea71670c059ab4d5a42bd22503f18c087dd22d4">dea71670</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4381">#4381</a><a href="https://github.com/gohugoio/hugo/issues/4903">#4903</a><a href="https://github.com/gohugoio/hugo/issues/4858">#4858</a></li>
-<li>Consider root and current section&rsquo;s content type if set in front matter <a href="https://github.com/gohugoio/hugo/commit/c790029e1dbb0b66af18d05764bd6045deb2e180">c790029e</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4891">#4891</a></li>
-<li>Update docker image <a href="https://github.com/gohugoio/hugo/commit/554553c09c7657d28681e1fa0638806a452737a0">554553c0</a> <a href="https://github.com/bep">@bep</a></li>
-<li>Merge branch &lsquo;release-0.42.2&rsquo; <a href="https://github.com/gohugoio/hugo/commit/282f6035e7c36f8550d91033e3a66718468c6c8b">282f6035</a> <a href="https://github.com/bep">@bep</a></li>
-<li>Release 0.42.2 <a href="https://github.com/gohugoio/hugo/commit/1637d12e3762fc1ebab4cd675f75afaf25f59cdb">1637d12e</a> <a href="https://github.com/bep">@bep</a></li>
-<li>Update GoReleaser config <a href="https://github.com/gohugoio/hugo/commit/1f0c4e1fb347bb233f3312c424fbf5a013c03604">1f0c4e1f</a> <a href="https://github.com/caarlos0">@caarlos0</a></li>
-<li>Create missing head.html partial on new theme generation <a href="https://github.com/gohugoio/hugo/commit/fd71fa89bd6c197402582c87b2b76d4b96d562bf">fd71fa89</a> <a href="https://github.com/openscript">@openscript</a></li>
-<li>Add html doctype to baseof.html template for new themes <a href="https://github.com/gohugoio/hugo/commit/b5a3aa7082135d0a573f4fbb00f798e26b67b902">b5a3aa70</a> <a href="https://github.com/openscript">@openscript</a></li>
-<li>Adds .gitattributes to force Go files to LF <a href="https://github.com/gohugoio/hugo/commit/6a2968fd5c0116d93de0f379ac615e9076821899">6a2968fd</a> <a href="https://github.com/neurocline">@neurocline</a></li>
-<li>Update to Go 1.9.7 and Go 1.10.3 <a href="https://github.com/gohugoio/hugo/commit/23d5fc82ee01d56440d0991c899acd31e9b63e27">23d5fc82</a> <a href="https://github.com/anthonyfok">@anthonyfok</a></li>
-<li>Update Dockerfile to a multi-stage build <a href="https://github.com/gohugoio/hugo/commit/8531ec7ca36fd35a57fba06bbb06a65c94dfd3ed">8531ec7c</a> <a href="https://github.com/skoblenick">@skoblenick</a> <a href="https://github.com/gohugoio/hugo/issues/4154">#4154</a></li>
-<li>Release 0.42.1 <a href="https://github.com/gohugoio/hugo/commit/d67e843c1212e1f53933556b5f946c8541188d9a">d67e843c</a> <a href="https://github.com/bep">@bep</a></li>
-<li>Do not fail server build when /static is missing <a href="https://github.com/gohugoio/hugo/commit/34ee27a78b9e2b5f475d44253ae234067b76cc6e">34ee27a7</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4846">#4846</a></li>
+<li>Bump CircleCI image <a href="https://github.com/gohugoio/hugo/commit/e3df6478f09a7a5fed96aced791fa94fd2c35d1a" target="_blank" rel="noopener noreffer ">e3df6478</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a></li>
+<li>Add Goreleaser extended config <a href="https://github.com/gohugoio/hugo/commit/626afc98254421f5a5edc97c541b10bd81d5bbbb" target="_blank" rel="noopener noreffer ">626afc98</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4908" target="_blank" rel="noopener noreffer ">#4908</a></li>
+<li>Build both hugo and hugo.extended for 0.43 <a href="https://github.com/gohugoio/hugo/commit/e1027c5846b48c4ad450f6cc27e2654c9e0dae39" target="_blank" rel="noopener noreffer ">e1027c58</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a> <a href="https://github.com/gohugoio/hugo/issues/4908" target="_blank" rel="noopener noreffer ">#4908</a></li>
+<li>Add temporary build script <a href="https://github.com/gohugoio/hugo/commit/bfc3488b8e8b3dc1ffc6a339ee2dac8dcbdb55a9" target="_blank" rel="noopener noreffer ">bfc3488b</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a></li>
+<li>Add &ldquo;extended&rdquo; to &ldquo;hugo version&rdquo; <a href="https://github.com/gohugoio/hugo/commit/ce84b524f4e94299b5b66afe7ce1a9bd4a9959fc" target="_blank" rel="noopener noreffer ">ce84b524</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a> <a href="https://github.com/gohugoio/hugo/issues/4913" target="_blank" rel="noopener noreffer ">#4913</a></li>
+<li>Add a newScratch template func <a href="https://github.com/gohugoio/hugo/commit/2b8d907ab731627f4e2a30442cd729064516c8bb" target="_blank" rel="noopener noreffer ">2b8d907a</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4685" target="_blank" rel="noopener noreffer ">#4685</a></li>
+<li>Add Hugo Piper with SCSS support and much more <a href="https://github.com/gohugoio/hugo/commit/dea71670c059ab4d5a42bd22503f18c087dd22d4" target="_blank" rel="noopener noreffer ">dea71670</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4381" target="_blank" rel="noopener noreffer ">#4381</a><a href="https://github.com/gohugoio/hugo/issues/4903" target="_blank" rel="noopener noreffer ">#4903</a><a href="https://github.com/gohugoio/hugo/issues/4858" target="_blank" rel="noopener noreffer ">#4858</a></li>
+<li>Consider root and current section&rsquo;s content type if set in front matter <a href="https://github.com/gohugoio/hugo/commit/c790029e1dbb0b66af18d05764bd6045deb2e180" target="_blank" rel="noopener noreffer ">c790029e</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4891" target="_blank" rel="noopener noreffer ">#4891</a></li>
+<li>Update docker image <a href="https://github.com/gohugoio/hugo/commit/554553c09c7657d28681e1fa0638806a452737a0" target="_blank" rel="noopener noreffer ">554553c0</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a></li>
+<li>Merge branch &lsquo;release-0.42.2&rsquo; <a href="https://github.com/gohugoio/hugo/commit/282f6035e7c36f8550d91033e3a66718468c6c8b" target="_blank" rel="noopener noreffer ">282f6035</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a></li>
+<li>Release 0.42.2 <a href="https://github.com/gohugoio/hugo/commit/1637d12e3762fc1ebab4cd675f75afaf25f59cdb" target="_blank" rel="noopener noreffer ">1637d12e</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a></li>
+<li>Update GoReleaser config <a href="https://github.com/gohugoio/hugo/commit/1f0c4e1fb347bb233f3312c424fbf5a013c03604" target="_blank" rel="noopener noreffer ">1f0c4e1f</a> <a href="https://github.com/caarlos0" target="_blank" rel="noopener noreffer ">@caarlos0</a></li>
+<li>Create missing head.html partial on new theme generation <a href="https://github.com/gohugoio/hugo/commit/fd71fa89bd6c197402582c87b2b76d4b96d562bf" target="_blank" rel="noopener noreffer ">fd71fa89</a> <a href="https://github.com/openscript" target="_blank" rel="noopener noreffer ">@openscript</a></li>
+<li>Add html doctype to baseof.html template for new themes <a href="https://github.com/gohugoio/hugo/commit/b5a3aa7082135d0a573f4fbb00f798e26b67b902" target="_blank" rel="noopener noreffer ">b5a3aa70</a> <a href="https://github.com/openscript" target="_blank" rel="noopener noreffer ">@openscript</a></li>
+<li>Adds .gitattributes to force Go files to LF <a href="https://github.com/gohugoio/hugo/commit/6a2968fd5c0116d93de0f379ac615e9076821899" target="_blank" rel="noopener noreffer ">6a2968fd</a> <a href="https://github.com/neurocline" target="_blank" rel="noopener noreffer ">@neurocline</a></li>
+<li>Update to Go 1.9.7 and Go 1.10.3 <a href="https://github.com/gohugoio/hugo/commit/23d5fc82ee01d56440d0991c899acd31e9b63e27" target="_blank" rel="noopener noreffer ">23d5fc82</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a></li>
+<li>Update Dockerfile to a multi-stage build <a href="https://github.com/gohugoio/hugo/commit/8531ec7ca36fd35a57fba06bbb06a65c94dfd3ed" target="_blank" rel="noopener noreffer ">8531ec7c</a> <a href="https://github.com/skoblenick" target="_blank" rel="noopener noreffer ">@skoblenick</a> <a href="https://github.com/gohugoio/hugo/issues/4154" target="_blank" rel="noopener noreffer ">#4154</a></li>
+<li>Release 0.42.1 <a href="https://github.com/gohugoio/hugo/commit/d67e843c1212e1f53933556b5f946c8541188d9a" target="_blank" rel="noopener noreffer ">d67e843c</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a></li>
+<li>Do not fail server build when /static is missing <a href="https://github.com/gohugoio/hugo/commit/34ee27a78b9e2b5f475d44253ae234067b76cc6e" target="_blank" rel="noopener noreffer ">34ee27a7</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4846" target="_blank" rel="noopener noreffer ">#4846</a></li>
 </ul>
 <h2 id="fixes">Fixes</h2>
 <ul>
-<li>Do not create paginator pages for the other output formats <a href="https://github.com/gohugoio/hugo/commit/43338c3a99769eb7d0df0c12559b8b3d42b67dba">43338c3a</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4890">#4890</a></li>
-<li>Fix the shortcodes/partials vs base template detection <a href="https://github.com/gohugoio/hugo/commit/a5d0a57e6bdab583134a68c035aac9b3007f006a">a5d0a57e</a> <a href="https://github.com/bep">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4897">#4897</a></li>
-<li>nfpm replacements <a href="https://github.com/gohugoio/hugo/commit/e1a052ecb823c688406a8af97dfaaf52a75231da">e1a052ec</a> <a href="https://github.com/caarlos0">@caarlos0</a></li>
-<li>Fix typos <a href="https://github.com/gohugoio/hugo/commit/3cea2932e17a08ebc19cd05f3079d9379bc8fba5">3cea2932</a> <a href="https://github.com/idealhack">@idealhack</a></li>
+<li>Do not create paginator pages for the other output formats <a href="https://github.com/gohugoio/hugo/commit/43338c3a99769eb7d0df0c12559b8b3d42b67dba" target="_blank" rel="noopener noreffer ">43338c3a</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4890" target="_blank" rel="noopener noreffer ">#4890</a></li>
+<li>Fix the shortcodes/partials vs base template detection <a href="https://github.com/gohugoio/hugo/commit/a5d0a57e6bdab583134a68c035aac9b3007f006a" target="_blank" rel="noopener noreffer ">a5d0a57e</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4897" target="_blank" rel="noopener noreffer ">#4897</a></li>
+<li>nfpm replacements <a href="https://github.com/gohugoio/hugo/commit/e1a052ecb823c688406a8af97dfaaf52a75231da" target="_blank" rel="noopener noreffer ">e1a052ec</a> <a href="https://github.com/caarlos0" target="_blank" rel="noopener noreffer ">@caarlos0</a></li>
+<li>Fix typos <a href="https://github.com/gohugoio/hugo/commit/3cea2932e17a08ebc19cd05f3079d9379bc8fba5" target="_blank" rel="noopener noreffer ">3cea2932</a> <a href="https://github.com/idealhack" target="_blank" rel="noopener noreffer ">@idealhack</a></li>
 </ul>
-
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2018-07-09</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/" data-title="And Now: Hugo Pipes!" data-via="xxoo"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/" data-title="And Now: Hugo Pipes!"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/" data-title="And Now: Hugo Pipes!"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://zyqi17.github.io/2018/07/and-now-hugo-pipes/" data-title="And Now: Hugo Pipes!"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
     </div>
 
-    <div class="post-copyright">
-             
-            <p class="copyright-item">
-                <span>Author:</span>
-                <span>Jerry.Qi </span>
-                </p>
-            
-           
-             
-            <p class="copyright-item">
-                    <span>Link:</span>
-                    <a href=https://zyqi17.github.io/2018/07/and-now-hugo-pipes/>https://zyqi17.github.io/2018/07/and-now-hugo-pipes/</span>
-            </p>
-            
-             
-            <p class="copyright-item lincese">
-                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
-            </p>
-            
-    </div>
-
-  
-    <div class="post-tags">
-        
+    <div class="post-info-more">
+        <section class="post-tags"></section>
         <section>
-                <a href="javascript:window.history.back();">back</a></span> · 
-                <span><a href="https://zyqi17.github.io">home</a></span>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav">
-        
-        <a href="https://zyqi17.github.io/2017/07/http2-server-push-in-hugo/" class="prev" rel="prev" title="HTTP/2 Server Push in Hugo"><i class="iconfont icon-left"></i>&nbsp;HTTP/2 Server Push in Hugo</a>
-         
-        
-        <a href="https://zyqi17.github.io/2018/07/hugo-0.44-friday-the-13th-edition/" class="next" rel="next" title="Hugo 0.44: Friday the 13th Edition">Hugo 0.44: Friday the 13th Edition&nbsp;<i class="iconfont icon-right"></i></a>
-        
-    </div>
+    <div class="post-nav"><a href="/2017/07/http2-server-push-in-hugo/" class="prev" rel="prev" title="HTTP/2 Server Push in Hugo"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>HTTP/2 Server Push in Hugo</a>
+            <a href="/2018/07/hugo-0.44-friday-the-13th-edition/" class="next" rel="next" title="Hugo 0.44: Friday the 13th Edition">Hugo 0.44: Friday the 13th Edition<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.111.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+        </div>
+    </footer></div>
 
-    <div class="post-comment">
-          
-                 
-          
-    </div>
-</article>
-          </div>
-		   </main>
-      <footer class="footer">
-    <div class="copyright">
-        &copy;
-        
-        <span itemprop="copyrightYear">2021 - 2022</span>
-        
-        <span class="with-love">
-    	 <i class="iconfont icon-love"></i> 
-         </span>
-         
-            <span class="author" itemprop="copyrightHolder"><a href="https://zyqi17.github.io">Jerry.Qi</a> | </span> 
-         
-
-         
-		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/liuzc/leaveit" target="_blank" rel="external nofollow">LeaveIt</a></span> 
-    </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
-    
-  
-
-
-
-     </div>
-  </body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

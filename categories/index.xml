@@ -1,47 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories on LeaveIt</title>
-    <link>https://zyqi17.github.io/categories/</link>
-    <description>Recent content in Categories on LeaveIt</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 12 May 2022 20:53:46 +0800</lastBuildDate><atom:link href="https://zyqi17.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>bioinfo</title>
-      <link>https://zyqi17.github.io/categories/bioinfo/</link>
-      <pubDate>Thu, 12 May 2022 20:53:46 +0800</pubDate>
-      
-      <guid>https://zyqi17.github.io/categories/bioinfo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Releases</title>
-      <link>https://zyqi17.github.io/categories/releases/</link>
-      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/categories/releases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://zyqi17.github.io/categories/blog/</link>
-      <pubDate>Mon, 24 Jul 2017 18:36:00 +0200</pubDate>
-      
-      <guid>https://zyqi17.github.io/categories/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Uncategorized</title>
-      <link>https://zyqi17.github.io/categories/uncategorized/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://zyqi17.github.io/categories/uncategorized/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Categories - Category - LoveIt</title>
+        <link>https://zyqi17.github.io/categories/</link>
+        <description>Categories - Category - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 12 May 2022 20:53:46 &#43;0800</lastBuildDate><atom:link href="https://zyqi17.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>bioinfo</title>
+    <link>https://zyqi17.github.io/categories/bioinfo/</link>
+    <pubDate>Thu, 12 May 2022 20:53:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/categories/bioinfo/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Releases</title>
+    <link>https://zyqi17.github.io/categories/releases/</link>
+    <pubDate>Wed, 29 Aug 2018 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/categories/releases/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>blog</title>
+    <link>https://zyqi17.github.io/categories/blog/</link>
+    <pubDate>Mon, 24 Jul 2017 18:36:00 &#43;0200</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/categories/blog/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Uncategorized</title>
+    <link>https://zyqi17.github.io/categories/uncategorized/</link>
+    <pubDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://zyqi17.github.io/categories/uncategorized/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
