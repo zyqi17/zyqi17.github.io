@@ -1,16 +1,20 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Theme - Tag - LoveIt</title>
-        <link>https://zyqi17.github.io/tags/theme/</link>
-        <description>Theme - Tag - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://zyqi17.github.io/tags/theme/" rel="self" type="application/rss+xml" /><item>
-    <title>Creating a New Theme</title>
-    <link>https://zyqi17.github.io/2014/09/creating-a-new-theme/</link>
-    <pubDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</pubDate>
-    <author>Michael Henderson</author>
-    <guid>https://zyqi17.github.io/2014/09/creating-a-new-theme/</guid>
-    <description><![CDATA[Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theme on LoveIt</title>
+    <link>http://localhost:1313/tags/theme/</link>
+    <description>Recent content in Theme on LoveIt</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 16 Feb 2026 16:28:04 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/theme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a New Theme</title>
+      <link>http://localhost:1313/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/creating-a-new-theme/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;&#xA;&lt;p&gt;We&amp;rsquo;ll start with creating a new site with a very basic template. Then we&amp;rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

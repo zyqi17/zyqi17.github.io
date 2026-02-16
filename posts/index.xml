@@ -1,99 +1,115 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - LoveIt</title>
-        <link>https://zyqi17.github.io/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>All Posts | LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 Oct 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 16 Feb 2026 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>马年大吉</title>
+    <link>http://localhost:1313/happiness/</link>
+    <pubDate>Mon, 16 Feb 2026 00:00:00 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/happiness/</guid>
+    <description><![CDATA[<p><a href="https://www.cell.com/current-biology/abstract/S0960-9822%2826%2900002-3" target="_blank" rel="noopener noreffer ">Thorn specification in citrus plants by an SHI/STY family transcription factor: Current Biology</a></p>]]></description>
+</item>
+<item>
     <title>订婚</title>
-    <link>https://zyqi17.github.io/2023/10/engagement/</link>
+    <link>http://localhost:1313/engagement/</link>
     <pubDate>Thu, 05 Oct 2023 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2023/10/engagement/</guid>
-    <description><![CDATA[2023年10月02日，与庆游订婚。
-执子之手，与子偕老。]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/engagement/</guid>
+    <description><![CDATA[<p>2023-10-02, 与这位美丽的女士订婚。
+能和她在一起是多么幸运&#x1f60a;</p>
+<p>
+</p>]]></description>
 </item>
 <item>
     <title>不要害怕搞坏软件</title>
-    <link>https://zyqi17.github.io/2023/06/%E4%B8%8D%E8%A6%81%E5%AE%B3%E6%80%95%E6%90%9E%E5%9D%8F%E8%BD%AF%E4%BB%B6/</link>
+    <link>http://localhost:1313/my_attitude_to_software/</link>
     <pubDate>Thu, 01 Jun 2023 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2023/06/%E4%B8%8D%E8%A6%81%E5%AE%B3%E6%80%95%E6%90%9E%E5%9D%8F%E8%BD%AF%E4%BB%B6/</guid>
-    <description><![CDATA[对待软件不能有害怕搞坏的心态。大不了重装。]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/my_attitude_to_software/</guid>
+    <description><![CDATA[<p>对待软件不能有害怕搞坏的心态。大不了重装。</p>]]></description>
 </item>
 <item>
     <title>deep principles</title>
-    <link>https://zyqi17.github.io/2022/09/deep-principles/</link>
+    <link>http://localhost:1313/diary/</link>
     <pubDate>Thu, 29 Sep 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2022/09/deep-principles/</guid>
-    <description><![CDATA[https://codefol.io/posts/the-forty-year-programmer/]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/diary/</guid>
+    <description><![CDATA[<p><a href="https://codefol.io/posts/the-forty-year-programmer/" target="_blank" rel="noopener noreffer ">https://codefol.io/posts/the-forty-year-programmer/</a></p>]]></description>
 </item>
 <item>
     <title>反式调控突变的多效性</title>
-    <link>https://zyqi17.github.io/2022/06/%E5%8F%8D%E5%BC%8F%E8%B0%83%E6%8E%A7%E7%AA%81%E5%8F%98%E7%9A%84%E5%A4%9A%E6%95%88%E6%80%A7/</link>
+    <link>http://localhost:1313/paper/</link>
     <pubDate>Sat, 25 Jun 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2022/06/%E5%8F%8D%E5%BC%8F%E8%B0%83%E6%8E%A7%E7%AA%81%E5%8F%98%E7%9A%84%E5%A4%9A%E6%95%88%E6%80%A7/</guid>
-    <description><![CDATA[Pleiotropic effects of trans-regulatory mutations on fitness and gene expression We use the effects of cis-regulatory mutations to infer effects of trans-regulatory mutations attributable to impacts beyond the focal gene, revealing a distribution of pleiotropic effects.
-The more widespread and deleterious effects of trans-regulatory mutations we observed are consistent with their decreasing relative contribution to expression differences over evolutionary time.
-Prior work has shown that trans-regulatory variants appear to be the primary source of mRNA expression differences within a species but the relative contribution of cis-regulatory variants often increases with evolutionary time (2–6).]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/paper/</guid>
+    <description><![CDATA[<h1 id="pleiotropic-effects-of-trans-regulatory-mutations-on-fitness-and-gene-expression"><a href="https://www.science.org/doi/full/10.1126/science.abj7185" target="_blank" rel="noopener noreffer ">Pleiotropic effects of trans-regulatory mutations on fitness and gene expression</a></h1>
+<ul>
+<li>
+<p>We use the effects of cis-regulatory mutations to infer effects of trans-regulatory mutations attributable to impacts beyond the focal gene, revealing a distribution of pleiotropic effects.</p>
+</li>
+<li>
+<p>The more widespread and deleterious effects of trans-regulatory mutations we observed are consistent with their decreasing relative contribution to expression differences over evolutionary time.</p>
+</li>
+<li>
+<p>Prior work has shown that trans-regulatory variants appear to be the primary source of mRNA expression differences within a species but the relative contribution of cis-regulatory variants often increases with evolutionary time (2–6).</p>]]></description>
 </item>
 <item>
     <title>马尔克斯</title>
-    <link>https://zyqi17.github.io/2022/06/%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF/</link>
+    <link>http://localhost:1313/gabo/</link>
     <pubDate>Sat, 25 Jun 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2022/06/%E9%A9%AC%E5%B0%94%E5%85%8B%E6%96%AF/</guid>
-    <description><![CDATA[Inside the four walls of that room lay the immense delta of the Magdalena river, the grey frothy sea of Colombia’s Caribbean coast, the suffocating swamps of the Ciénaga, the interminable geometries of the banana plantations, and a long railway line that ran into the farthest territories of his heart. It ended at the village of Aracataca, now renamed by him Macondo, where his maternal grandparents had brought him up amid prospectors, fornicators, gypsies, scoundrels and virginal girls bent over their sewing frames.]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/gabo/</guid>
+    <description><![CDATA[<p>Inside the four walls of that room lay the immense delta of the Magdalena river, the grey frothy sea of Colombia’s Caribbean coast, the suffocating swamps of the Ciénaga, the interminable geometries of the banana plantations, and a long railway line that ran into the farthest territories of his heart. It ended at the village of Aracataca, now renamed by him Macondo, where his maternal grandparents had brought him up amid prospectors, fornicators, gypsies, scoundrels and virginal girls bent over their sewing frames. In that room where he had locked himself away he inhaled the sweet milk-candy and oregano of his grandmother and absorbed again the political venting of his grandfather, who had fought on the Liberal side in the War of a Thousand Days and who, at the book’s beginning, took him to discover ice, a great block of infinite internal needles that boiled his hand when he touched it.</p>]]></description>
 </item>
 <item>
     <title>遗传异质性</title>
-    <link>https://zyqi17.github.io/2022/06/%E9%81%97%E4%BC%A0%E5%BC%82%E8%B4%A8%E6%80%A7/</link>
+    <link>http://localhost:1313/genetic_heterogeneity/</link>
     <pubDate>Fri, 17 Jun 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2022/06/%E9%81%97%E4%BC%A0%E5%BC%82%E8%B4%A8%E6%80%A7/</guid>
-    <description><![CDATA[Revisiting a GWAS peak in Arabidopsis thaliana reveals possible confounding by genetic heterogeneity Magnus Nordborg实验室的工作 JOINING THE LAB We are always looking for talented new group members. Backgrounds vary widely, from plant molecular biology to statistics, but everyone is expected to be willing to learn to analyze their own data.
-Prospective students and postdocs should write me directly, explaining what you are interested in, and why. Please attach a CV. Postdocs are expected to have at least one first-author publication in a major international journal.]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/genetic_heterogeneity/</guid>
+    <description><![CDATA[<p>Revisiting a GWAS peak in Arabidopsis thaliana reveals possible confounding by genetic heterogeneity
+Magnus Nordborg实验室的工作
+</p>
+<h2 id="joining-the-lab">JOINING THE LAB</h2>
+<p>We are always looking for talented new group members. Backgrounds vary widely, from plant molecular biology to statistics, but everyone is expected to be willing to learn to analyze their own data.</p>
+<p>Prospective students and postdocs should <strong>write me directly, explaining what you are interested in, and why</strong>. Please attach a CV. Postdocs are expected to have at least one first-author publication in a major international journal. You are expected to be competitive for postdoctoral fellowships and apply for them if eligible (we are happy to help).</p>]]></description>
 </item>
 <item>
     <title>Attitude</title>
-    <link>https://zyqi17.github.io/2022/06/attitude/</link>
+    <link>http://localhost:1313/attitude/</link>
     <pubDate>Thu, 16 Jun 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2022/06/attitude/</guid>
-    <description><![CDATA[抓住真正重要的东西，忽略不重要的东西。
-混合线性模型 数学技能的缺失阻碍了更加深入的思考。（也就是不能精确的描述一个问题）]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/attitude/</guid>
+    <description><![CDATA[<p>抓住真正重要的东西，忽略不重要的东西。</p>
+<ul>
+<li>混合线性模型</li>
+</ul>
+<p>数学技能的缺失阻碍了更加深入的思考。（也就是不能精确的描述一个问题）</p>]]></description>
 </item>
 <item>
     <title>the meaning of fiction</title>
-    <link>https://zyqi17.github.io/2022/06/the-meaning-of-fiction/</link>
+    <link>http://localhost:1313/about_fiction/</link>
     <pubDate>Sun, 05 Jun 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2022/06/the-meaning-of-fiction/</guid>
-    <description><![CDATA[Fifty Shades of Grey may be a fun read, but it&rsquo;s not going to help you probe the minds of others the way War and Peace might. That&rsquo;s the conclusion of a new study, which finds that, compared with mainstream fiction, high-brow literary works do more to improve our ability to understand the thoughts, emotions, and motivations of those around us.
-https://www.science.org/content/article/want-read-minds-read-good-books]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/about_fiction/</guid>
+    <description><![CDATA[<p><em>Fifty Shades of Grey</em> may be a fun read, but it&rsquo;s not going to help you probe the minds of others the way <em>War and Peace</em> might. That&rsquo;s the conclusion of a new study, which finds that, compared with mainstream fiction, high-brow literary works do more to improve our ability to understand the thoughts, emotions, and motivations of those around us.</p>
+<p><a href="https://www.science.org/content/article/want-read-minds-read-good-books" target="_blank" rel="noopener noreffer ">https://www.science.org/content/article/want-read-minds-read-good-books</a></p>]]></description>
 </item>
 <item>
     <title>刘小磊博士论文</title>
-    <link>https://zyqi17.github.io/2022/05/farmcpu/</link>
+    <link>http://localhost:1313/farmcpu/</link>
     <pubDate>Fri, 20 May 2022 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2022/05/farmcpu/</guid>
-    <description><![CDATA[本文阐述了一个新的算法来解决混合线性模型中存在的混杂问题 (pdf)
-混合线性模型带来了假阴性 (pdf)
-最有效的去消除这种假阳性的策略是将群体背景作为固定效应，亲缘关系矩阵作为随机效应加在一个混合线性模型中 (pdf)
-对于与群体结构相关联的复杂性状，Q+K模型虽然可以很好的控制假阳性，但同时大大降低了模型对候选基因信号的检测强度。随后，各种各样的策略被用于改进混合线性模型的检测效力。 (pdf)
-随机选取了数据中10%的位点用 GAPIT 软件(Lipka et al. 2012)构建亲缘关系矩阵和计算主成分。 (pdf)
-Genome-wide association study of 107 phenotypes in Arabidopsis thaliana inbred lines (pdf)
-当一个关联位点本身或者其附近上下游一定距离内（例如，50,000碱基对）的遗传标记被检测到时，认定为该关联位点被成功检测。 (pdf)]]></description>
-</item>
-<item>
-    <title>博士资格考试</title>
-    <link>https://zyqi17.github.io/posts/phd/</link>
-    <pubDate>Thu, 12 May 2022 21:45:29 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/posts/phd/</guid>
-    <description><![CDATA[]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/farmcpu/</guid>
+    <description><![CDATA[<p>本文阐述了一个新的算法来解决混合线性模型中存在的混杂问题 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=7&amp;annotation=QRJE7Y3I" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>混合线性模型带来了假阴性 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=10&amp;annotation=WB4HYPZ2" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>最有效的去消除这种假阳性的策略是将群体背景作为固定效应，亲缘关系矩阵作为随机效应加在一个混合线性模型中 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=11&amp;annotation=N972RUGJ" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p><strong>对于与群体结构相关联的复杂性状，Q+K模型虽然可以很好的控制假阳性，但同时大大降低了模型对候选基因信号的检测强度</strong>。随后，各种各样的策略被用于改进混合线性模型的检测效力。 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=13&amp;annotation=6FS38JZ6" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>随机选取了数据中10%的位点用 GAPIT 软件(Lipka et al. 2012)构建亲缘关系矩阵和计算主成分。 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=20&amp;annotation=X2938XMT" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>Genome-wide association study of 107 phenotypes in Arabidopsis thaliana inbred lines (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=65&amp;annotation=PNINL929" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>当一个关联位点本身或者其附近上下游一定距离内（例如，50,000碱基对）的遗传标记被检测到时，认定为该关联位点被成功检测。 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=23&amp;annotation=VLK7JXPJ" target="_blank" rel="noopener noreffer ">pdf</a>)</p>]]></description>
 </item>
 </channel>
 </rss>

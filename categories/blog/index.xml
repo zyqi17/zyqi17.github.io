@@ -1,18 +1,20 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>blog - Category - LoveIt</title>
-        <link>https://zyqi17.github.io/categories/blog/</link>
-        <description>blog - Category - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Jul 2017 18:36:00 &#43;0200</lastBuildDate><atom:link href="https://zyqi17.github.io/categories/blog/" rel="self" type="application/rss+xml" /><item>
-    <title>HTTP/2 Server Push in Hugo</title>
-    <link>https://zyqi17.github.io/2017/07/http2-server-push-in-hugo/</link>
-    <pubDate>Mon, 24 Jul 2017 18:36:00 &#43;0200</pubDate>
-    <author>bep</author>
-    <guid>https://zyqi17.github.io/2017/07/http2-server-push-in-hugo/</guid>
-    <description><![CDATA[Netlify recently announced support for HTTP/2 server push, and we have now added it to the gohugo.io sites for the main CSS and JS bundles, along with server-side 301 redirect support.
-If you navigate to https://gohugo.io and look in the Chrome developer network console, you should now see Push as the new source (&ldquo;Initiator&rdquo;) for the CSS and JSS:
-Setting up this in Hugo was easy:
-1. Configure Netlify Output Formats Add a new custom media type and two new output formats to config.]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on LoveIt</title>
+    <link>http://localhost:1313/categories/blog/</link>
+    <description>Recent content in Blog on LoveIt</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 16 Feb 2026 16:28:04 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP/2 Server Push in Hugo</title>
+      <link>http://localhost:1313/http2-server-push-in-hugo/</link>
+      <pubDate>Mon, 24 Jul 2017 18:36:00 +0200</pubDate>
+      <guid>http://localhost:1313/http2-server-push-in-hugo/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Netlify&lt;/strong&gt; recently announced support for &lt;a href=&#34;https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;HTTP/2 server push&lt;/a&gt;, and we have now added it to the &lt;strong&gt;gohugo.io&lt;/strong&gt; sites for the main &lt;code&gt;CSS&lt;/code&gt; and &lt;code&gt;JS&lt;/code&gt; bundles, along with server-side 301 redirect support.&lt;/p&gt;&#xA;&lt;p&gt;If you navigate to &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;https://gohugo.io&lt;/a&gt; and look in the Chrome developer network console, you should now see &lt;code&gt;Push&lt;/code&gt; as the new source (&amp;ldquo;Initiator&amp;rdquo;) for the &lt;code&gt;CSS&lt;/code&gt; and &lt;code&gt;JSS&lt;/code&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Setting up this in Hugo was easy:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-configure-netlify-output-formats&#34;&gt;1. Configure Netlify Output Formats&lt;/h2&gt;&#xA;&lt;p&gt;Add a new custom media type and two new output formats to &lt;code&gt;config.toml&lt;/code&gt;. For more on output formats in Hugo, see &lt;a href=&#34;http://localhost:1313/templates/output-formats/&#34; rel=&#34;&#34;&gt;Custom Output Formats&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>This One Goes to 11! - LoveIt</title><meta name="Description" content="With Go 1.11, Hugo finally gets support for variable overwrites in templates!"><meta property="og:url" content="http://localhost:1313/0.48-relnotes/">
+  <meta property="og:site_name" content="LoveIt">
+  <meta property="og:title" content="This One Goes to 11!">
+  <meta property="og:description" content="With Go 1.11, Hugo finally gets support for variable overwrites in templates!">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-08-29T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-16T16:28:04+01:00">
+    <meta property="og:image" content="http://localhost:1313/0.48-relnotes/featured-hugo-48-poster.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/0.48-relnotes/featured-hugo-48-poster.png">
+  <meta name="twitter:title" content="This One Goes to 11!">
+  <meta name="twitter:description" content="With Go 1.11, Hugo finally gets support for variable overwrites in templates!">
+      <meta name="twitter:site" content="@xxxx">
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/0.48-relnotes/" /><link rel="prev" href="http://localhost:1313/0.47.1-relnotes/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "This One Goes to 11!",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/0.48-relnotes\/"
+        },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  360 ,
+        "url": "http:\/\/localhost:1313\/0.48-relnotes\/","datePublished": "2018-08-29T00:00:00+00:00","dateModified": "2026-02-16T16:28:04+01:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "xxxx","logo": "http:\/\/localhost:1313\/images\/avatar.png"},"author": {
+                "@type": "Person",
+                "name": "xxxx"
+            },"description": "With Go 1.11, Hugo finally gets support for variable overwrites in templates!"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="LoveIt"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>LoveIt</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i>  </a><a class="menu-item" href="/about/" title="About Hugo"> About Hugo </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="Select Language">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/0.48-relnotes/" selected>English</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="LoveIt"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>LoveIt</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/dillonzq/LoveIt" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw' aria-hidden='true'></i></a><a class="menu-item" href="/about/" title="About Hugo">About Hugo</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="Select Language">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/0.48-relnotes/" selected>English</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">This One Goes to 11!</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>xxxx</a></span>&nbsp;<span class="post-category">included in <a href="/categories/releases/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Releases</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-08-29">2018-08-29</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;360 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#enhancements">Enhancements</a></li>
+    <li><a href="#fixes">Fixes</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Hugo <code>0.48</code> is built with the brand new Go 1.11. On the technical side this means that Hugo now uses <a href="https://github.com/golang/go/wiki/Modules" target="_blank" rel="noopener noreffer ">Go Modules</a> for the build. The big new functional thing in Go 1.11 for Hugo is added support for <a href="https://github.com/golang/go/issues/10608" target="_blank" rel="noopener noreffer ">variable overwrites</a>. This means that you can now do this and get the expected result:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="nx">$var</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="s">&#34;Hugo Page&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="na">.IsHome</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">	<span class="cp">{{</span><span class="w"> </span><span class="nx">$var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;Hugo Home&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Var is <span class="cp">{{</span><span class="w"> </span><span class="nx">$var</span><span class="w"> </span><span class="cp">}}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The above may look obvious, but has not been possible until now. In Hugo we have had <code>.Scratch</code> as a workaround for this, but Go 1.11 will help clean up a lot of templates.</p>
+<p>This release represents <strong>23 contributions by 5 contributors</strong> to the main Hugo code base. <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> leads the Hugo development with a significant amount of contributions, but also a big shoutout to <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a>, <a href="https://github.com/vsopvsop" target="_blank" rel="noopener noreffer ">@vsopvsop</a>, and <a href="https://github.com/moorereason" target="_blank" rel="noopener noreffer ">@moorereason</a> for their ongoing contributions. And a big thanks to <a href="https://github.com/digitalcraftsman" target="_blank" rel="noopener noreffer ">@digitalcraftsman</a> for his relentless work on keeping the themes site in pristine condition and to <a href="https://github.com/kaushalmodi" target="_blank" rel="noopener noreffer ">@kaushalmodi</a> for his great work on the documentation site.</p>
+<p>Many have also been busy writing and fixing the documentation in <a href="https://github.com/gohugoio/hugoDocs" target="_blank" rel="noopener noreffer ">hugoDocs</a>,
+which has received <strong>15 contributions by 12 contributors</strong>. A special thanks to <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a>, <a href="https://github.com/kaushalmodi" target="_blank" rel="noopener noreffer ">@kaushalmodi</a>, <a href="https://github.com/regisphilibert" target="_blank" rel="noopener noreffer ">@regisphilibert</a>, and <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a> for their work on the documentation site.</p>
+<p>Hugo now has:</p>
+<ul>
+<li>28275+ <a href="https://github.com/gohugoio/hugo/stargazers" target="_blank" rel="noopener noreffer ">stars</a></li>
+<li>441+ <a href="https://github.com/gohugoio/hugo/graphs/contributors" target="_blank" rel="noopener noreffer ">contributors</a></li>
+<li>252+ <a href="http://themes.gohugo.io/" target="_blank" rel="noopener noreffer ">themes</a></li>
+</ul>
+<h2 id="enhancements">Enhancements</h2>
+<ul>
+<li>Add a test for template variable overwrite <a href="https://github.com/gohugoio/hugo/commit/0c8a4154838e32a33d34202fd4fa0187aa502190" target="_blank" rel="noopener noreffer ">0c8a4154</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a></li>
+<li>Include language code in REF_NOT_FOUND errors <a href="https://github.com/gohugoio/hugo/commit/94d0e79d33994b9a9d26a4d020500acdcc71e58c" target="_blank" rel="noopener noreffer ">94d0e79d</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5110" target="_blank" rel="noopener noreffer ">#5110</a></li>
+<li>Improve minifier MIME type resolution <a href="https://github.com/gohugoio/hugo/commit/ebb56e8bdbfaf4f955326017e40b2805850871e9" target="_blank" rel="noopener noreffer ">ebb56e8b</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5093" target="_blank" rel="noopener noreffer ">#5093</a></li>
+<li>Update to Go 1.11 <a href="https://github.com/gohugoio/hugo/commit/6b9934a26615ea614b1774770532cae9762a58d3" target="_blank" rel="noopener noreffer ">6b9934a2</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5115" target="_blank" rel="noopener noreffer ">#5115</a></li>
+<li>Set GO111MODULE=on for mage install <a href="https://github.com/gohugoio/hugo/commit/c7f057797ca7bfc781d5a2bbf181bb52360f160f" target="_blank" rel="noopener noreffer ">c7f05779</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5115" target="_blank" rel="noopener noreffer ">#5115</a></li>
+<li>Add instruction to install PostCSS when missing <a href="https://github.com/gohugoio/hugo/commit/08d14113b60ff70ffe922e8098e289b099a70e0f" target="_blank" rel="noopener noreffer ">08d14113</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a> <a href="https://github.com/gohugoio/hugo/issues/5111" target="_blank" rel="noopener noreffer ">#5111</a></li>
+<li>Update snapcraft build config to Go 1.11 <a href="https://github.com/gohugoio/hugo/commit/94d6d6780fac78e9ed5ed58ecdb9821ad8f0f27c" target="_blank" rel="noopener noreffer ">94d6d678</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5115" target="_blank" rel="noopener noreffer ">#5115</a></li>
+<li>Use Go 1.11 modules with Mage <a href="https://github.com/gohugoio/hugo/commit/45c9c45d1d0d99443fa6bb524a1265fa9ba95e0e" target="_blank" rel="noopener noreffer ">45c9c45d</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5115" target="_blank" rel="noopener noreffer ">#5115</a></li>
+<li>Add go.mod <a href="https://github.com/gohugoio/hugo/commit/fce32c07fb80e9929bc2660cf1e681e93009d24b" target="_blank" rel="noopener noreffer ">fce32c07</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5115" target="_blank" rel="noopener noreffer ">#5115</a></li>
+<li>Update Travis to Go 1.11 and Go 1.10.4 <a href="https://github.com/gohugoio/hugo/commit/d32ff16fd61f55874e81d73759afa099b8bdcb57" target="_blank" rel="noopener noreffer ">d32ff16f</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5115" target="_blank" rel="noopener noreffer ">#5115</a></li>
+<li>Skip installing postcss due to failure on build server <a href="https://github.com/gohugoio/hugo/commit/66f688f7120560ca787c1a23e3e7fbc3aa617956" target="_blank" rel="noopener noreffer ">66f688f7</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a></li>
+</ul>
+<h2 id="fixes">Fixes</h2>
+<ul>
+<li>Keep end tags <a href="https://github.com/gohugoio/hugo/commit/e6eda2a370aa1184e0afaf12e95dbd6f8b63ace5" target="_blank" rel="noopener noreffer ">e6eda2a3</a> <a href="https://github.com/vsopvsop" target="_blank" rel="noopener noreffer ">@vsopvsop</a></li>
+<li>Fix permissions when creating new folders <a href="https://github.com/gohugoio/hugo/commit/f4675fa0f0fae2358adfaea49e8da824ee094495" target="_blank" rel="noopener noreffer ">f4675fa0</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5128" target="_blank" rel="noopener noreffer ">#5128</a></li>
+<li>Fix handling of taxonomy terms containing slashes <a href="https://github.com/gohugoio/hugo/commit/fff132537b4094221f4f099e2251f3cda613060f" target="_blank" rel="noopener noreffer ">fff13253</a> <a href="https://github.com/moorereason" target="_blank" rel="noopener noreffer ">@moorereason</a> <a href="https://github.com/gohugoio/hugo/issues/4090" target="_blank" rel="noopener noreffer ">#4090</a></li>
+<li>Fix build on armv7 <a href="https://github.com/gohugoio/hugo/commit/8999de193c18b7aa07b44e5b7d9f443a8572e117" target="_blank" rel="noopener noreffer ">8999de19</a> <a href="https://github.com/caarlos0" target="_blank" rel="noopener noreffer ">@caarlos0</a> <a href="https://github.com/gohugoio/hugo/issues/5101" target="_blank" rel="noopener noreffer ">#5101</a></li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2026-02-16&nbsp;<a class="git-hash" href="https://github.com/dillonzq/LoveIt/commit/ceab49cc8d38e84303cadfd64a818d37a9061d06" target="_blank" title="commit by qizhengyang2017(qizhengyang17@gmail.com) ceab49cc8d38e84303cadfd64a818d37a9061d06: 2026-01-28">
+                                    <i class="fas fa-hashtag fa-fw" aria-hidden="true"></i>ceab49c</a></span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/0.48-relnotes/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/0.48-relnotes/" data-title="This One Goes to 11!" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/0.48-relnotes/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/0.48-relnotes/" data-title="This One Goes to 11!"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/0.48-relnotes/" data-title="This One Goes to 11!"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/0.48-relnotes/" data-title="This One Goes to 11!"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/0.47.1-relnotes/" class="prev" rel="prev" title="Two Bug Fixes"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Two Bug Fixes</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.155.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.3.0"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2026</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">xxxx</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

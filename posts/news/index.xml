@@ -1,89 +1,154 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Hugo News - LoveIt</title>
-        <link>https://zyqi17.github.io/posts/news/</link>
+        <link>http://localhost:1313/posts/news/</link>
         <description>All Hugo News | LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 29 Aug 2018 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://zyqi17.github.io/posts/news/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:1313/posts/news/" rel="self" type="application/rss+xml" /><item>
     <title>This One Goes to 11!</title>
-    <link>https://zyqi17.github.io/2018/08/this-one-goes-to-11/</link>
+    <link>http://localhost:1313/0.48-relnotes/</link>
     <pubDate>Wed, 29 Aug 2018 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2018/08/this-one-goes-to-11/</guid>
-    <description><![CDATA[Hugo 0.48 is built with the brand new Go 1.11. On the technical side this means that Hugo now uses Go Modules for the build. The big new functional thing in Go 1.11 for Hugo is added support for variable overwrites. This means that you can now do this and get the expected result:
-{{ $var := &#34;Hugo Page&#34; }} {{ if .IsHome }} {{ $var = &#34;Hugo Home&#34; }} {{ end }} Var is {{ $var }} The above may look obvious, but has not been possible until now.]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/0.48-relnotes/</guid>
+    <description><![CDATA[<p>Hugo <code>0.48</code> is built with the brand new Go 1.11. On the technical side this means that Hugo now uses <a href="https://github.com/golang/go/wiki/Modules" target="_blank" rel="noopener noreffer ">Go Modules</a> for the build. The big new functional thing in Go 1.11 for Hugo is added support for <a href="https://github.com/golang/go/issues/10608" target="_blank" rel="noopener noreffer ">variable overwrites</a>. This means that you can now do this and get the expected result:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="nx">$var</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="s">&#34;Hugo Page&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="na">.IsHome</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">	<span class="cp">{{</span><span class="w"> </span><span class="nx">$var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;Hugo Home&#34;</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">Var is <span class="cp">{{</span><span class="w"> </span><span class="nx">$var</span><span class="w"> </span><span class="cp">}}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The above may look obvious, but has not been possible until now. In Hugo we have had <code>.Scratch</code> as a workaround for this, but Go 1.11 will help clean up a lot of templates.</p>]]></description>
 </item>
 <item>
     <title>Two Bug Fixes</title>
-    <link>https://zyqi17.github.io/2018/08/two-bug-fixes/</link>
+    <link>http://localhost:1313/0.47.1-relnotes/</link>
     <pubDate>Mon, 20 Aug 2018 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2018/08/two-bug-fixes/</guid>
-    <description><![CDATA[This is a bug-fix release with two fixes. Fixes Fix .Site.Params case regression fdff0d3a @bep #5094 Do not strip IE conditional statements 5a0ee2b9 @bep #5089 Updates to Linux Snap build Remove unused files from Git, Perl, etc. 834617f9 @anthonyfok Add nodejs to allow PostCSS to work ef20ec1f @anthonyfok ]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/0.47.1-relnotes/</guid>
+    <description><![CDATA[<pre><code>This is a bug-fix release with two fixes.
+</code></pre>
+<h1 id="fixes">Fixes</h1>
+<ul>
+<li>Fix .Site.Params case regression <a href="https://github.com/gohugoio/hugo/commit/fdff0d3af4670f7079e539fef4b92af2a866d02d" target="_blank" rel="noopener noreffer ">fdff0d3a</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5094" target="_blank" rel="noopener noreffer ">#5094</a></li>
+<li>Do not strip IE conditional statements <a href="https://github.com/gohugoio/hugo/commit/5a0ee2b934e38d596da0f9742361f81c1221e3d5" target="_blank" rel="noopener noreffer ">5a0ee2b9</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5089" target="_blank" rel="noopener noreffer ">#5089</a></li>
+</ul>
+<h2 id="updates-to-linux-snap-build">Updates to Linux Snap build</h2>
+<ul>
+<li>Remove unused files from Git, Perl, etc. <a href="https://github.com/gohugoio/hugo/commit/834617f9f8d870643b2631fe607471c8e2ef2f47" target="_blank" rel="noopener noreffer ">834617f9</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a></li>
+<li>Add nodejs to allow PostCSS to work <a href="https://github.com/gohugoio/hugo/commit/ef20ec1fbaa8f5841b3fbe18978d4d8c19d8fc53" target="_blank" rel="noopener noreffer ">ef20ec1f</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a></li>
+</ul>]]></description>
 </item>
 <item>
     <title>Output Minification, Live-Reload Fixes and More</title>
-    <link>https://zyqi17.github.io/2018/08/output-minification-live-reload-fixes-and-more/</link>
+    <link>http://localhost:1313/0.47-relnotes/</link>
     <pubDate>Fri, 17 Aug 2018 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2018/08/output-minification-live-reload-fixes-and-more/</guid>
-    <description><![CDATA[Hugo 0.47 is named Hugo Reloaded. It adds minification support for the final rendered output (run hugo --minify), but it is mostly a bug fix release. And most notably, it fixes a set of issues with live-reloading/partial rebuilds when running hugo server. Working with bundles should now be a more pleasant experience, to pick one example.
-This release represents 35 contributions by 6 contributors to the main Hugo code base. @bep leads the Hugo development with a significant amount of contributions, but also a big shoutout to @satotake, @anthonyfok, and @coliff for their ongoing contributions.]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/0.47-relnotes/</guid>
+    <description><![CDATA[<p>Hugo <code>0.47</code> is named <strong>Hugo Reloaded</strong>. It adds minification support for the final rendered output (run <code>hugo --minify</code>), but it is mostly a bug fix release. And most notably, it fixes a set of issues with live-reloading/partial rebuilds when running <code>hugo server</code>. Working with bundles should now be a more pleasant experience, to pick one example.</p>
+<p>This release represents <strong>35 contributions by 6 contributors</strong> to the main Hugo code base.
+<a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> leads the Hugo development with a significant amount of contributions, but also a big shoutout to <a href="https://github.com/satotake" target="_blank" rel="noopener noreffer ">@satotake</a>, <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a>, and <a href="https://github.com/coliff" target="_blank" rel="noopener noreffer ">@coliff</a> for their ongoing contributions.</p>]]></description>
 </item>
 <item>
     <title>The Summer of Hugo</title>
-    <link>https://zyqi17.github.io/2018/08/the-summer-of-hugo/</link>
+    <link>http://localhost:1313/0.46-relnotes/</link>
     <pubDate>Wed, 01 Aug 2018 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2018/08/the-summer-of-hugo/</guid>
-    <description><![CDATA[**Hugo 0.46** is the closing credits to **The Summer of Hugo**. While most people have been relaxing on the beach, Hugo has been really busy: 0.42, June 12, 2018: Theme Composition and Inheritance! 0.43, July 9, 2018: Hugo Pipes! This was followed by some more technical follow-up releases. And today, when July has turned into August, we come with another one. It&rsquo;s not a big release. But with the big interest in Hugo Pipes, we felt that it was important to get this out there sooner rather than later.]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/0.46-relnotes/</guid>
+    <description><![CDATA[<pre><code>**Hugo 0.46** is the closing credits to **The Summer of Hugo**. While most people have been relaxing on the beach, Hugo has been really busy: 
+</code></pre>
+<ul>
+<li><strong>0.42, June 12, 2018</strong>: <a href="https://gohugo.io/news/0.42-relnotes/" target="_blank" rel="noopener noreffer ">Theme Composition and Inheritance!</a></li>
+<li><strong>0.43, July 9, 2018</strong>: <a href="https://gohugo.io/news/0.43-relnotes/" target="_blank" rel="noopener noreffer ">Hugo Pipes!</a></li>
+</ul>
+<p>This was followed by some more technical follow-up releases. And today, when July has turned into August, we come with another one. It&rsquo;s not a big release. But with the big interest in <strong>Hugo Pipes</strong>, we felt that it was important to get this out there sooner rather than later.</p>]]></description>
 </item>
 <item>
     <title>Hugo 0.45.1: Two Bug Fixes</title>
-    <link>https://zyqi17.github.io/2018/07/hugo-0.45.1-two-bug-fixes/</link>
+    <link>http://localhost:1313/0.45.1-relnotes/</link>
     <pubDate>Wed, 25 Jul 2018 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2018/07/hugo-0.45.1-two-bug-fixes/</guid>
-    <description><![CDATA[This is a bug-fix release with a couple of important fixes (and one enhancement). Enhancements Add Page.FirstSection 016dd4a6 @bep Fixes Fix .Site.GetPage regression 04d4c08d @bep #4989 Fix &ldquo;borrow content from another language&rdquo; issue c6b599a0 @bep #4986 ]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/0.45.1-relnotes/</guid>
+    <description><![CDATA[<pre><code>This is a bug-fix release with a couple of important fixes (and one enhancement).
+</code></pre>
+<h2 id="enhancements">Enhancements</h2>
+<ul>
+<li>Add Page.FirstSection <a href="https://github.com/gohugoio/hugo/commit/016dd4a69a765061bb3da8490d3cac6ec47a91eb" target="_blank" rel="noopener noreffer ">016dd4a6</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a></li>
+</ul>
+<h2 id="fixes">Fixes</h2>
+<ul>
+<li>Fix .Site.GetPage regression <a href="https://github.com/gohugoio/hugo/commit/04d4c08dbcac08ff7feeb88863e91799fed0937b" target="_blank" rel="noopener noreffer ">04d4c08d</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4989" target="_blank" rel="noopener noreffer ">#4989</a></li>
+<li>Fix &ldquo;borrow content from another language&rdquo; issue <a href="https://github.com/gohugoio/hugo/commit/c6b599a06d66b8e3c92343d25bb8043eb4f291f1" target="_blank" rel="noopener noreffer ">c6b599a0</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4986" target="_blank" rel="noopener noreffer ">#4986</a></li>
+</ul>]]></description>
 </item>
 <item>
     <title>Hugo 0.45: Revival of ref, relref and GetPage</title>
-    <link>https://zyqi17.github.io/2018/07/hugo-0.45-revival-of-ref-relref-and-getpage/</link>
+    <link>http://localhost:1313/0.45-relnotes/</link>
     <pubDate>Sun, 22 Jul 2018 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2018/07/hugo-0.45-revival-of-ref-relref-and-getpage/</guid>
-    <description><![CDATA[Hugo 0.45 is the revival of ref, relref and GetPage. @vassudanagunta and @bep have done some great work improving the API and implementation for the helper functions used to get one page. Before this release, the API was a little bit clumsy and the result potentially ambiguous in some situations.
-Now you can simply do:
-{{ with .Site.GetPage &#34;/blog/my-post.md&#34; }}{{ .Title }}{{ end }} Or to get a section page:]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/0.45-relnotes/</guid>
+    <description><![CDATA[<p>Hugo <code>0.45</code> is the <strong>revival of ref, relref and GetPage</strong>. <a href="https://github.com/vassudanagunta" target="_blank" rel="noopener noreffer ">@vassudanagunta</a> and <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> have done some great work improving the API and implementation for the helper functions used to <strong>get one page</strong>. Before this release, the API was a little bit clumsy and the result potentially ambiguous in some situations.</p>
+<p>Now you can simply do:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="na">.Site.GetPage</span><span class="w"> </span><span class="s">&#34;/blog/my-post.md&#34;</span><span class="w"> </span><span class="cp">}}{{</span><span class="w"> </span><span class="na">.Title</span><span class="w"> </span><span class="cp">}}{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Or to get a section page:</p>]]></description>
 </item>
 <item>
     <title>Hugo 0.44: Friday the 13th Edition</title>
-    <link>https://zyqi17.github.io/2018/07/hugo-0.44-friday-the-13th-edition/</link>
+    <link>http://localhost:1313/0.44-relnotes/</link>
     <pubDate>Fri, 13 Jul 2018 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2018/07/hugo-0.44-friday-the-13th-edition/</guid>
-    <description><![CDATA[Hugo 0.44 is the follow-up release, or The Sequel, of the very well received 0.43 only days ago. That release added Hugo Pipes, with SCSS/SASS support, assets bundling and minification, ad-hoc image processing and much more.
-This is mostly a bug-fix release, but it also includes several important improvements.
-Many complained that their SVG images vanished when browsed from the hugo server. With Hugo Pipes MIME types suddenly got really important, but Hugo&rsquo;s use of Suffix was ambiguous.]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/0.44-relnotes/</guid>
+    <description><![CDATA[<p>Hugo <code>0.44</code> is the follow-up release, or <strong>The Sequel</strong>, of the very well received <code>0.43</code> only days ago. That release added <strong>Hugo Pipes</strong>, with SCSS/SASS support, assets bundling and minification, ad-hoc image processing and much more.</p>
+<p>This is mostly a bug-fix release, but it also includes several important improvements.</p>
+<p>Many complained that their SVG images vanished when browsed from the <code>hugo server</code>. With <strong>Hugo Pipes</strong> MIME types suddenly got really important, but Hugo&rsquo;s use of <code>Suffix</code> was ambiguous. This became visible when we redefined the <code>image/svg+xml</code> to work with <strong>Hugo Pipes</strong>. We have now added a <code>Suffixes</code> field on the MIME type definition in Hugo, which is a list of one or more filename suffixes the MIME type is identified with. If you need to add a custom MIME type definition, this means that you also need to specify the full MIME type as the key, e.g. <code>image/svg+xml</code>.</p>]]></description>
 </item>
 <item>
     <title>And Now: Hugo Pipes!</title>
-    <link>https://zyqi17.github.io/2018/07/and-now-hugo-pipes/</link>
+    <link>http://localhost:1313/0.43-relnotes/</link>
     <pubDate>Mon, 09 Jul 2018 00:00:00 &#43;0000</pubDate>
-    <author>Author</author>
-    <guid>https://zyqi17.github.io/2018/07/and-now-hugo-pipes/</guid>
-    <description><![CDATA[Hugo `0.43` adds a powerful and very simple to use **Assets Pipeline** with **SASS and SCSS** with source map support, **PostCSS** and **minification** and **fingerprinting** and **Subresource Integrity** and ... much more. Oh, did we mention that you can now do **ad-hoc image processing** and execute text resources as Go templates? An example pipeline:
-{{ $styles := resources.Get &#34;scss/main.scss&#34; | toCSS | postCSS | minify | fingerprint }} &lt;link rel=&#34;stylesheet&#34; href=&#34;{{ $styles.]]></description>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/0.43-relnotes/</guid>
+    <description><![CDATA[<pre><code>Hugo `0.43` adds a powerful and very simple to use **Assets Pipeline** with **SASS and SCSS** with source map support, **PostCSS** and **minification** and **fingerprinting** and **Subresource Integrity** and ... much more. Oh, did we mention that you can now do **ad-hoc image processing** and execute text resources as Go templates?
+</code></pre>
+<p>An example pipeline:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="nx">$styles</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">resources</span><span class="na">.Get</span><span class="w"> </span><span class="s">&#34;scss/main.scss&#34;</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nx">toCSS</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nx">postCSS</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nx">minify</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="nx">fingerprint</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&#34;stylesheet&#34;</span> <span class="na">href</span><span class="o">=</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="nx">$styles</span><span class="na">.Permalink</span><span class="w"> </span><span class="cp">}}</span><span class="s">&#34;</span> <span class="na">integrity</span><span class="o">=</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="nx">$styles</span><span class="na">.Data.Integrity</span><span class="w"> </span><span class="cp">}}</span><span class="s">&#34;</span> <span class="na">media</span><span class="o">=</span><span class="s">&#34;screen&#34;</span><span class="p">&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>To me, the above is beautiful in its speed and simplicity. It could be printed on a t-shirt. I wrote in the <a href="https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/" target="_blank" rel="noopener noreffer ">Hugo Birthday Post</a> some days ago about the value of a single binary with native and fast implementations. I should have added <em>simplicity</em> as a keyword. There seem to be a misconception that all of this needs to be hard and painful.</p>]]></description>
 </item>
 <item>
     <title>HTTP/2 Server Push in Hugo</title>
-    <link>https://zyqi17.github.io/2017/07/http2-server-push-in-hugo/</link>
+    <link>http://localhost:1313/http2-server-push-in-hugo/</link>
     <pubDate>Mon, 24 Jul 2017 18:36:00 &#43;0200</pubDate>
     <author>bep</author>
-    <guid>https://zyqi17.github.io/2017/07/http2-server-push-in-hugo/</guid>
-    <description><![CDATA[Netlify recently announced support for HTTP/2 server push, and we have now added it to the gohugo.io sites for the main CSS and JS bundles, along with server-side 301 redirect support.
-If you navigate to https://gohugo.io and look in the Chrome developer network console, you should now see Push as the new source (&ldquo;Initiator&rdquo;) for the CSS and JSS:
-Setting up this in Hugo was easy:
-1. Configure Netlify Output Formats Add a new custom media type and two new output formats to config.]]></description>
+    <guid>http://localhost:1313/http2-server-push-in-hugo/</guid>
+    <description><![CDATA[<p><strong>Netlify</strong> recently announced support for <a href="https://www.netlify.com/blog/2017/07/18/http/2-server-push-on-netlify/" target="_blank" rel="noopener noreffer ">HTTP/2 server push</a>, and we have now added it to the <strong>gohugo.io</strong> sites for the main <code>CSS</code> and <code>JS</code> bundles, along with server-side 301 redirect support.</p>
+<p>If you navigate to <a href="https://gohugo.io" target="_blank" rel="noopener noreffer ">https://gohugo.io</a> and look in the Chrome developer network console, you should now see <code>Push</code> as the new source (&ldquo;Initiator&rdquo;) for the <code>CSS</code> and <code>JSS</code>:</p>
+<p><strong>Setting up this in Hugo was easy:</strong></p>
+<h2 id="1-configure-netlify-output-formats">1. Configure Netlify Output Formats</h2>
+<p>Add a new custom media type and two new output formats to <code>config.toml</code>. For more on output formats in Hugo, see <a href="/templates/output-formats/" rel="">Custom Output Formats</a>.</p>]]></description>
 </item>
 </channel>
 </rss>
