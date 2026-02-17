@@ -1,6 +1,6 @@
 # 反式调控突变的多效性
 
-# [Pleiotropic effects of trans-regulatory mutations on fitness and gene expression](https://www.science.org/doi/full/10.1126/science.abj7185)
+[Pleiotropic effects of trans-regulatory mutations on fitness and gene expression](https://www.science.org/doi/full/10.1126/science.abj7185)
 
   
 
