@@ -122,71 +122,66 @@
 <p>今天上班路上遇交警查电动车，庆幸这两天上了牌照应该没问题，且大妈们一个个骑的比我还快扬长而去，我觉得我应该也没什么问题，直到交警对我招起了小手，说我没带头盔需要学习，说着就让我扫二维码输入他的警号看视频答题，我猜他估计是为了指标专找年轻人下手，还心生抱怨说不拦大妈，之后交警大哥跟我闲聊问我之前学习过没有，是不是大一新生，还问我是不是开学了，我觉得今天这题要好好答了！谢谢交警叔叔的教育！</p></div><div class="post-footer">
         <a href="/jokes/">Read More</a></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/0.48-relnotes/">This One Goes to 11!</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zyqi</a></span>&nbsp;<span class="post-publish">published on <time datetime="2018-08-29">2018-08-29</time></span>&nbsp;<span class="post-category">included in <a href="/categories/releases/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Releases</a></span></div><div class="content"><p>Hugo <code>0.48</code> is built with the brand new Go 1.11. On the technical side this means that Hugo now uses <a href="https://github.com/golang/go/wiki/Modules" target="_blank" rel="noopener noreffer ">Go Modules</a> for the build. The big new functional thing in Go 1.11 for Hugo is added support for <a href="https://github.com/golang/go/issues/10608" target="_blank" rel="noopener noreffer ">variable overwrites</a>. This means that you can now do this and get the expected result:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="nx">$var</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="s">&#34;Hugo Page&#34;</span><span class="w"> </span><span class="cp">}}</span>
-</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="na">.IsHome</span><span class="w"> </span><span class="cp">}}</span>
-</span></span><span class="line"><span class="cl">	<span class="cp">{{</span><span class="w"> </span><span class="nx">$var</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;Hugo Home&#34;</span><span class="w"> </span><span class="cp">}}</span>
-</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span>
-</span></span><span class="line"><span class="cl">Var is <span class="cp">{{</span><span class="w"> </span><span class="nx">$var</span><span class="w"> </span><span class="cp">}}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>The above may look obvious, but has not been possible until now. In Hugo we have had <code>.Scratch</code> as a workaround for this, but Go 1.11 will help clean up a lot of templates.</p></div><div class="post-footer">
-        <a href="/0.48-relnotes/">Read More</a></div>
+        <a href="/creating-a-new-theme/">Creating a New Theme</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael Henderson</a></span>&nbsp;<span class="post-publish">published on <time datetime="2014-09-28">2014-09-28</time></span>&nbsp;<span class="post-category">included in <a href="/categories/uncategorized/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Uncategorized</a></span></div><div class="content"><h2 id="introduction">Introduction</h2>
+<p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
+<p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p></div><div class="post-footer">
+        <a href="/creating-a-new-theme/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/theme/">Theme</a>,&nbsp;<a href="/tags/hugo/">Hugo</a></div></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/0.47.1-relnotes/">Two Bug Fixes</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zyqi</a></span>&nbsp;<span class="post-publish">published on <time datetime="2018-08-20">2018-08-20</time></span>&nbsp;<span class="post-category">included in <a href="/categories/releases/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Releases</a></span></div><div class="content"><pre><code>This is a bug-fix release with two fixes.
+        <a href="/goisforlovers/">(Hu)go Template Primer</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zyqi</a></span>&nbsp;<span class="post-publish">published on <time datetime="2014-07-28">2014-07-28</time></span>&nbsp;<span class="post-category">included in <a href="/categories/uncategorized/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Uncategorized</a></span></div><div class="content"><p>Hugo uses the excellent <a href="http://golang.org/" target="_blank" rel="noopener noreffer ">go</a> <a href="http://golang.org/pkg/html/template/" target="_blank" rel="noopener noreffer ">html/template</a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in go templates.</p></div><div class="post-footer">
+        <a href="/goisforlovers/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/go/">Go</a>,&nbsp;<a href="/tags/golang/">Golang</a>,&nbsp;<a href="/tags/templates/">Templates</a>,&nbsp;<a href="/tags/themes/">Themes</a>,&nbsp;<a href="/tags/development/">Development</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/hugoisforlovers/">Getting Started with Hugo</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zyqi</a></span>&nbsp;<span class="post-publish">published on <time datetime="2014-04-02">2014-04-02</time></span>&nbsp;<span class="post-category">included in <a href="/categories/uncategorized/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Uncategorized</a></span></div><div class="content"><h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
+<p>Goto <a href="https://github.com/spf13/hugo/releases" target="_blank" rel="noopener noreffer ">hugo releases</a> and download the
+appropriate version for your os and architecture.</p>
+<p>Save it somewhere specific as we will be using it in the next step.</p>
+<p>More complete instructions are available at <a href="/overview/installing/" rel="">installing hugo</a></p>
+<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
+<p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.</p>
+<p>Follow the following steps:</p>
+<ol>
+<li>Clone the <a href="http://github.com/spf13/hugo" target="_blank" rel="noopener noreffer ">hugo repository</a></li>
+<li>Go into the repo</li>
+<li>Run hugo in server mode and build the docs</li>
+<li>Open your browser to http://localhost:1313</li>
+</ol>
+<p>Corresponding pseudo commands:</p></div><div class="post-footer">
+        <a href="/hugoisforlovers/">Read More</a><div class="post-tags">
+                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/go/">Go</a>,&nbsp;<a href="/tags/golang/">Golang</a>,&nbsp;<a href="/tags/hugo/">Hugo</a>,&nbsp;<a href="/tags/development/">Development</a></div></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zyqi</a></span>&nbsp;<span class="post-publish">published on <time datetime="2014-03-10">2014-03-10</time></span>&nbsp;<span class="post-category">included in <a href="/categories/uncategorized/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Uncategorized</a></span></div><div class="content"><h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
+<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
+With Jekyll, something that looked like</p>
+<pre><code>▾ &lt;root&gt;/
+    ▾ images/
+        logo.png
 </code></pre>
-<h1 id="fixes">Fixes</h1>
-<ul>
-<li>Fix .Site.Params case regression <a href="https://github.com/gohugoio/hugo/commit/fdff0d3af4670f7079e539fef4b92af2a866d02d" target="_blank" rel="noopener noreffer ">fdff0d3a</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5094" target="_blank" rel="noopener noreffer ">#5094</a></li>
-<li>Do not strip IE conditional statements <a href="https://github.com/gohugoio/hugo/commit/5a0ee2b934e38d596da0f9742361f81c1221e3d5" target="_blank" rel="noopener noreffer ">5a0ee2b9</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/5089" target="_blank" rel="noopener noreffer ">#5089</a></li>
-</ul>
-<h2 id="updates-to-linux-snap-build">Updates to Linux Snap build</h2>
-<ul>
-<li>Remove unused files from Git, Perl, etc. <a href="https://github.com/gohugoio/hugo/commit/834617f9f8d870643b2631fe607471c8e2ef2f47" target="_blank" rel="noopener noreffer ">834617f9</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a></li>
-<li>Add nodejs to allow PostCSS to work <a href="https://github.com/gohugoio/hugo/commit/ef20ec1fbaa8f5841b3fbe18978d4d8c19d8fc53" target="_blank" rel="noopener noreffer ">ef20ec1f</a> <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a></li>
-</ul></div><div class="post-footer">
-        <a href="/0.47.1-relnotes/">Read More</a></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/0.47-relnotes/">Output Minification, Live-Reload Fixes and More</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zyqi</a></span>&nbsp;<span class="post-publish">published on <time datetime="2018-08-17">2018-08-17</time></span>&nbsp;<span class="post-category">included in <a href="/categories/releases/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Releases</a></span></div><div class="content"><p>Hugo <code>0.47</code> is named <strong>Hugo Reloaded</strong>. It adds minification support for the final rendered output (run <code>hugo --minify</code>), but it is mostly a bug fix release. And most notably, it fixes a set of issues with live-reloading/partial rebuilds when running <code>hugo server</code>. Working with bundles should now be a more pleasant experience, to pick one example.</p>
-<p>This release represents <strong>35 contributions by 6 contributors</strong> to the main Hugo code base.
-<a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> leads the Hugo development with a significant amount of contributions, but also a big shoutout to <a href="https://github.com/satotake" target="_blank" rel="noopener noreffer ">@satotake</a>, <a href="https://github.com/anthonyfok" target="_blank" rel="noopener noreffer ">@anthonyfok</a>, and <a href="https://github.com/coliff" target="_blank" rel="noopener noreffer ">@coliff</a> for their ongoing contributions.</p></div><div class="post-footer">
-        <a href="/0.47-relnotes/">Read More</a></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/0.46-relnotes/">The Summer of Hugo</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zyqi</a></span>&nbsp;<span class="post-publish">published on <time datetime="2018-08-01">2018-08-01</time></span>&nbsp;<span class="post-category">included in <a href="/categories/releases/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Releases</a></span></div><div class="content"><pre><code>**Hugo 0.46** is the closing credits to **The Summer of Hugo**. While most people have been relaxing on the beach, Hugo has been really busy: 
+<p>should become</p>
+<pre><code>▾ &lt;root&gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
 </code></pre>
-<ul>
-<li><strong>0.42, June 12, 2018</strong>: <a href="https://gohugo.io/news/0.42-relnotes/" target="_blank" rel="noopener noreffer ">Theme Composition and Inheritance!</a></li>
-<li><strong>0.43, July 9, 2018</strong>: <a href="https://gohugo.io/news/0.43-relnotes/" target="_blank" rel="noopener noreffer ">Hugo Pipes!</a></li>
-</ul>
-<p>This was followed by some more technical follow-up releases. And today, when July has turned into August, we come with another one. It&rsquo;s not a big release. But with the big interest in <strong>Hugo Pipes</strong>, we felt that it was important to get this out there sooner rather than later.</p></div><div class="post-footer">
-        <a href="/0.46-relnotes/">Read More</a></div>
+<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p></div><div class="post-footer">
+        <a href="/migrate-from-jekyll/">Read More</a></div>
 </article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/0.45.1-relnotes/">Hugo 0.45.1: Two Bug Fixes</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zyqi</a></span>&nbsp;<span class="post-publish">published on <time datetime="2018-07-25">2018-07-25</time></span>&nbsp;<span class="post-category">included in <a href="/categories/releases/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Releases</a></span></div><div class="content"><pre><code>This is a bug-fix release with a couple of important fixes (and one enhancement).
-</code></pre>
-<h2 id="enhancements">Enhancements</h2>
-<ul>
-<li>Add Page.FirstSection <a href="https://github.com/gohugoio/hugo/commit/016dd4a69a765061bb3da8490d3cac6ec47a91eb" target="_blank" rel="noopener noreffer ">016dd4a6</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a></li>
-</ul>
-<h2 id="fixes">Fixes</h2>
-<ul>
-<li>Fix .Site.GetPage regression <a href="https://github.com/gohugoio/hugo/commit/04d4c08dbcac08ff7feeb88863e91799fed0937b" target="_blank" rel="noopener noreffer ">04d4c08d</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4989" target="_blank" rel="noopener noreffer ">#4989</a></li>
-<li>Fix &ldquo;borrow content from another language&rdquo; issue <a href="https://github.com/gohugoio/hugo/commit/c6b599a06d66b8e3c92343d25bb8043eb4f291f1" target="_blank" rel="noopener noreffer ">c6b599a0</a> <a href="https://github.com/bep" target="_blank" rel="noopener noreffer ">@bep</a> <a href="https://github.com/gohugoio/hugo/issues/4986" target="_blank" rel="noopener noreffer ">#4986</a></li>
-</ul></div><div class="post-footer">
-        <a href="/0.45.1-relnotes/">Read More</a></div>
+        <a href="/2023_summary/"></a>
+    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>zyqi</a></span>&nbsp;<span class="post-publish">published on <time datetime="0001-01-01">0001-01-01</time></span></div><div class="content"><p>专注于现在</p>
+<p>【杨振宁先生评价自己的物理风格：正好走进了当时要发展的领域，所以有在当时能做出一些贡献-哔哩哔哩】 <a href="https://b23.tv/xhUzmzF" target="_blank" rel="noopener noreffer ">https://b23.tv/xhUzmzF</a>
+不用太努力也能做出好的成果。</p>
+<p>我的大脑是单线程的。</p></div><div class="post-footer">
+        <a href="/2023_summary/">Read More</a></div>
 </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
                         <a href="/">1</a>
@@ -202,14 +197,6 @@
                 </li><li class="page-item active">
                     <span class="page-link">
                         <a href="/page/4/">4</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/5/">5</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/6/">6</a>
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
