@@ -1,0 +1,21 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Go - Tag - LoveIt</title><link>https://zyqi17.github.io/tags/go/</link><description>Go - Tag - LoveIt</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 28 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://zyqi17.github.io/tags/go/" rel="self" type="application/rss+xml"/><item><title>(Hu)go Template Primer</title><link>https://zyqi17.github.io/goisforlovers/</link><pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate><author>zyqi</author><guid>https://zyqi17.github.io/goisforlovers/</guid><description><![CDATA[<p>Hugo uses the excellent <a href="http://golang.org/" target="_blank" rel="noopener noreffer ">go</a> <a href="http://golang.org/pkg/html/template/" target="_blank" rel="noopener noreffer ">html/template</a> library for
+its template engine. It is an extremely lightweight engine that provides a very
+small amount of logic. In our experience that it is just the right amount of
+logic to be able to create a good static website. If you have used other
+template systems from different languages or frameworks you will find a lot of
+similarities in go templates.</p>]]></description></item><item><title>Getting Started with Hugo</title><link>https://zyqi17.github.io/hugoisforlovers/</link><pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate><author>zyqi</author><guid>https://zyqi17.github.io/hugoisforlovers/</guid><description><![CDATA[<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
+<p>Goto <a href="https://github.com/spf13/hugo/releases" target="_blank" rel="noopener noreffer ">hugo releases</a> and download the
+appropriate version for your os and architecture.</p>
+<p>Save it somewhere specific as we will be using it in the next step.</p>
+<p>More complete instructions are available at <a href="/overview/installing/" rel="">installing hugo</a></p>
+<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
+<p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.</p>
+<p>Follow the following steps:</p>
+<ol>
+<li>Clone the <a href="http://github.com/spf13/hugo" target="_blank" rel="noopener noreffer ">hugo repository</a></li>
+<li>Go into the repo</li>
+<li>Run hugo in server mode and build the docs</li>
+<li>Open your browser to http://localhost:1313</li>
+</ol>
+<p>Corresponding pseudo commands:</p>]]></description></item></channel></rss>
