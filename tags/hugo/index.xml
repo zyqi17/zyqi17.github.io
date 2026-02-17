@@ -1,0 +1,40 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hugo - Tag - LoveIt</title>
+        <link>https://zyqi17.github.io/tags/hugo/</link>
+        <description>Hugo - Tag - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://zyqi17.github.io/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>Creating a New Theme</title>
+    <link>https://zyqi17.github.io/creating-a-new-theme/</link>
+    <pubDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</pubDate>
+    <author>Michael Henderson</author>
+    <guid>https://zyqi17.github.io/creating-a-new-theme/</guid>
+    <description><![CDATA[<h2 id="introduction">Introduction</h2>
+<p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
+<p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>]]></description>
+</item>
+<item>
+    <title>Getting Started with Hugo</title>
+    <link>https://zyqi17.github.io/hugoisforlovers/</link>
+    <pubDate>Wed, 02 Apr 2014 00:00:00 &#43;0000</pubDate>
+    <author>zyqi</author>
+    <guid>https://zyqi17.github.io/hugoisforlovers/</guid>
+    <description><![CDATA[<h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
+<p>Goto <a href="https://github.com/spf13/hugo/releases" target="_blank" rel="noopener noreffer ">hugo releases</a> and download the
+appropriate version for your os and architecture.</p>
+<p>Save it somewhere specific as we will be using it in the next step.</p>
+<p>More complete instructions are available at <a href="/overview/installing/" rel="">installing hugo</a></p>
+<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
+<p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.</p>
+<p>Follow the following steps:</p>
+<ol>
+<li>Clone the <a href="http://github.com/spf13/hugo" target="_blank" rel="noopener noreffer ">hugo repository</a></li>
+<li>Go into the repo</li>
+<li>Run hugo in server mode and build the docs</li>
+<li>Open your browser to http://localhost:1313</li>
+</ol>
+<p>Corresponding pseudo commands:</p>]]></description>
+</item>
+</channel>
+</rss>

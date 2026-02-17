@@ -1,19 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>文献阅读 on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</link>
-    <description>Recent content in 文献阅读 on My New Hugo Site</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>刘小磊博士论文</title>
-      <link>http://localhost:1313/posts/farmcpu/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/farmcpu/</guid>
-      <description>&lt;p&gt;本文阐述了一个新的算法来解决混合线性模型中存在的混杂问题 (&lt;a href=&#34;zotero://open-pdf/library/items/D7L9J2UW?page=7&amp;amp;annotation=QRJE7Y3I&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;pdf&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;混合线性模型带来了假阴性 (&lt;a href=&#34;zotero://open-pdf/library/items/D7L9J2UW?page=10&amp;amp;annotation=WB4HYPZ2&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;pdf&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;最有效的去消除这种假阳性的策略是将群体背景作为固定效应，亲缘关系矩阵作为随机效应加在一个混合线性模型中 (&lt;a href=&#34;zotero://open-pdf/library/items/D7L9J2UW?page=11&amp;amp;annotation=N972RUGJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;pdf&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;对于与群体结构相关联的复杂性状，Q+K模型虽然可以很好的控制假阳性，但同时大大降低了模型对候选基因信号的检测强度&lt;/strong&gt;。随后，各种各样的策略被用于改进混合线性模型的检测效力。 (&lt;a href=&#34;zotero://open-pdf/library/items/D7L9J2UW?page=13&amp;amp;annotation=6FS38JZ6&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;pdf&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;随机选取了数据中10%的位点用 GAPIT 软件(Lipka et al. 2012)构建亲缘关系矩阵和计算主成分。 (&lt;a href=&#34;zotero://open-pdf/library/items/D7L9J2UW?page=20&amp;amp;annotation=X2938XMT&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;pdf&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Genome-wide association study of 107 phenotypes in Arabidopsis thaliana inbred lines (&lt;a href=&#34;zotero://open-pdf/library/items/D7L9J2UW?page=65&amp;amp;annotation=PNINL929&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;pdf&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;当一个关联位点本身或者其附近上下游一定距离内（例如，50,000碱基对）的遗传标记被检测到时，认定为该关联位点被成功检测。 (&lt;a href=&#34;zotero://open-pdf/library/items/D7L9J2UW?page=23&amp;amp;annotation=VLK7JXPJ&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer &#34;&gt;pdf&lt;/a&gt;)&lt;/p&gt;</description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>文献阅读 - Tag - LoveIt</title>
+        <link>https://zyqi17.github.io/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</link>
+        <description>文献阅读 - Tag - LoveIt</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 20 May 2022 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://zyqi17.github.io/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/" rel="self" type="application/rss+xml" /><item>
+    <title>刘小磊博士论文</title>
+    <link>https://zyqi17.github.io/farmcpu/</link>
+    <pubDate>Fri, 20 May 2022 00:00:00 &#43;0000</pubDate>
+    <author>zyqi</author>
+    <guid>https://zyqi17.github.io/farmcpu/</guid>
+    <description><![CDATA[<p>本文阐述了一个新的算法来解决混合线性模型中存在的混杂问题 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=7&amp;annotation=QRJE7Y3I" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>混合线性模型带来了假阴性 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=10&amp;annotation=WB4HYPZ2" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>最有效的去消除这种假阳性的策略是将群体背景作为固定效应，亲缘关系矩阵作为随机效应加在一个混合线性模型中 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=11&amp;annotation=N972RUGJ" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p><strong>对于与群体结构相关联的复杂性状，Q+K模型虽然可以很好的控制假阳性，但同时大大降低了模型对候选基因信号的检测强度</strong>。随后，各种各样的策略被用于改进混合线性模型的检测效力。 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=13&amp;annotation=6FS38JZ6" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>随机选取了数据中10%的位点用 GAPIT 软件(Lipka et al. 2012)构建亲缘关系矩阵和计算主成分。 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=20&amp;annotation=X2938XMT" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>Genome-wide association study of 107 phenotypes in Arabidopsis thaliana inbred lines (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=65&amp;annotation=PNINL929" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
+<p>当一个关联位点本身或者其附近上下游一定距离内（例如，50,000碱基对）的遗传标记被检测到时，认定为该关联位点被成功检测。 (<a href="zotero://open-pdf/library/items/D7L9J2UW?page=23&amp;annotation=VLK7JXPJ" target="_blank" rel="noopener noreffer ">pdf</a>)</p>]]></description>
+</item>
+</channel>
 </rss>
