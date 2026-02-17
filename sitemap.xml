@@ -2,9 +2,32 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://zyqi17.github.io/</loc><lastmod>2026-02-17T10:47:31&#43;01:00</lastmod></url><url>
-            <loc>https://zyqi17.github.io/posts/</loc><lastmod>2026-02-17T10:47:31&#43;01:00</lastmod></url><url>
-            <loc>https://zyqi17.github.io/posts/second-post/</loc><lastmod>2026-02-17T10:47:31&#43;01:00</lastmod></url><url>
-            <loc>https://zyqi17.github.io/posts/first-post/</loc><lastmod>2026-02-17T10:35:09&#43;01:00</lastmod></url><url>
-            <loc>https://zyqi17.github.io/categories/</loc></url><url>
-            <loc>https://zyqi17.github.io/tags/</loc></url></urlset>
+            <loc>http://localhost:1313/</loc><lastmod>2026-02-17T10:47:31&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2026-02-17T10:47:31&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/second-post/</loc><lastmod>2026-02-17T10:47:31&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/first-post/</loc><lastmod>2026-02-17T10:35:09&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/new-year/</loc><lastmod>2026-02-16T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/engagement/</loc><lastmod>2023-10-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/my_attitude_to_software/</loc><lastmod>2023-06-01T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/diary/</loc><lastmod>2022-09-29T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/paper/</loc><lastmod>2022-06-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/gabo/</loc><lastmod>2022-06-25T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/genetic_heterogeneity/</loc><lastmod>2022-06-17T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/attitude/</loc><lastmod>2022-06-16T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/about_fiction/</loc><lastmod>2022-06-05T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2022-05-20T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/farmcpu/</loc><lastmod>2022-05-20T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/%E6%96%87%E7%8C%AE%E9%98%85%E8%AF%BB/</loc><lastmod>2022-05-20T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/phd/crop-design/</loc><lastmod>2022-05-12T21:45:29&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/phd/</loc><lastmod>2022-05-12T21:45:29&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/phd/heterosis/</loc><lastmod>2022-05-12T21:45:29&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/phd/questions/</loc><lastmod>2022-05-12T21:30:37&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/categories/bioinfo/</loc><lastmod>2022-05-12T20:53:46&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/categories/</loc><lastmod>2022-05-12T20:53:46&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/phd/phenotypeing/</loc><lastmod>2022-05-12T20:53:46&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/%E5%AE%9E%E9%AA%8C/</loc><lastmod>2022-05-12T16:04:34&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/phd/yeast-experiment/</loc><lastmod>2022-05-12T16:04:34&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/quotes/</loc><lastmod>2022-05-11T22:19:00&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/jokes/</loc><lastmod>2022-05-11T22:04:11&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/about/</loc><lastmod>2014-04-09T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/2023_summary/</loc></url></urlset>

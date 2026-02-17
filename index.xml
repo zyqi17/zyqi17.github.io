@@ -1,25 +1,110 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>My New Hugo Site</title>
-        <link>https://zyqi17.github.io/</link>
+        <link>http://localhost:1313/</link>
         <description>This is my cool site</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 17 Feb 2026 10:47:31 &#43;0100</lastBuildDate>
-            <atom:link href="https://zyqi17.github.io/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Second Post</title>
-    <link>https://zyqi17.github.io/posts/second-post/</link>
+    <link>http://localhost:1313/posts/second-post/</link>
     <pubDate>Tue, 17 Feb 2026 10:47:31 &#43;0100</pubDate>
     <author>xxxx</author>
-    <guid>https://zyqi17.github.io/posts/second-post/</guid>
+    <guid>http://localhost:1313/posts/second-post/</guid>
     <description><![CDATA[<p>吃火锅</p>]]></description>
 </item>
 <item>
     <title>First Post</title>
-    <link>https://zyqi17.github.io/posts/first-post/</link>
+    <link>http://localhost:1313/posts/first-post/</link>
     <pubDate>Tue, 17 Feb 2026 10:35:09 &#43;0100</pubDate>
     <author>xxxx</author>
-    <guid>https://zyqi17.github.io/posts/first-post/</guid>
+    <guid>http://localhost:1313/posts/first-post/</guid>
     <description><![CDATA[<p>马年</p>]]></description>
+</item>
+<item>
+    <title>马年大吉</title>
+    <link>http://localhost:1313/posts/new-year/</link>
+    <pubDate>Mon, 16 Feb 2026 00:00:00 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/posts/new-year/</guid>
+    <description><![CDATA[<p><a href="https://www.cell.com/current-biology/abstract/S0960-9822%2826%2900002-3" target="_blank" rel="noopener noreffer ">Thorn specification in citrus plants by an SHI/STY family transcription factor: Current Biology</a></p>]]></description>
+</item>
+<item>
+    <title>订婚</title>
+    <link>http://localhost:1313/posts/engagement/</link>
+    <pubDate>Thu, 05 Oct 2023 00:00:00 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/posts/engagement/</guid>
+    <description><![CDATA[<p>2023-10-02, 与这位美丽的女士订婚。
+能和她在一起是多么幸运:blush:</p>
+<p>
+</p>]]></description>
+</item>
+<item>
+    <title>不要害怕搞坏软件</title>
+    <link>http://localhost:1313/posts/my_attitude_to_software/</link>
+    <pubDate>Thu, 01 Jun 2023 00:00:00 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/posts/my_attitude_to_software/</guid>
+    <description><![CDATA[<p>对待软件不能有害怕搞坏的心态。大不了重装。</p>]]></description>
+</item>
+<item>
+    <title>deep principles</title>
+    <link>http://localhost:1313/posts/diary/</link>
+    <pubDate>Thu, 29 Sep 2022 00:00:00 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/posts/diary/</guid>
+    <description><![CDATA[<p><a href="https://codefol.io/posts/the-forty-year-programmer/" target="_blank" rel="noopener noreffer ">https://codefol.io/posts/the-forty-year-programmer/</a></p>]]></description>
+</item>
+<item>
+    <title>反式调控突变的多效性</title>
+    <link>http://localhost:1313/posts/paper/</link>
+    <pubDate>Sat, 25 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/posts/paper/</guid>
+    <description><![CDATA[<h1 id="pleiotropic-effects-of-trans-regulatory-mutations-on-fitness-and-gene-expression"><a href="https://www.science.org/doi/full/10.1126/science.abj7185" target="_blank" rel="noopener noreffer ">Pleiotropic effects of trans-regulatory mutations on fitness and gene expression</a></h1>
+<ul>
+<li>
+<p>We use the effects of cis-regulatory mutations to infer effects of trans-regulatory mutations attributable to impacts beyond the focal gene, revealing a distribution of pleiotropic effects.</p>
+</li>
+<li>
+<p>The more widespread and deleterious effects of trans-regulatory mutations we observed are consistent with their decreasing relative contribution to expression differences over evolutionary time.</p>
+</li>
+<li>
+<p>Prior work has shown that trans-regulatory variants appear to be the primary source of mRNA expression differences within a species but the relative contribution of cis-regulatory variants often increases with evolutionary time (2–6).</p>]]></description>
+</item>
+<item>
+    <title>马尔克斯</title>
+    <link>http://localhost:1313/posts/gabo/</link>
+    <pubDate>Sat, 25 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/posts/gabo/</guid>
+    <description><![CDATA[<p>Inside the four walls of that room lay the immense delta of the Magdalena river, the grey frothy sea of Colombia’s Caribbean coast, the suffocating swamps of the Ciénaga, the interminable geometries of the banana plantations, and a long railway line that ran into the farthest territories of his heart. It ended at the village of Aracataca, now renamed by him Macondo, where his maternal grandparents had brought him up amid prospectors, fornicators, gypsies, scoundrels and virginal girls bent over their sewing frames. In that room where he had locked himself away he inhaled the sweet milk-candy and oregano of his grandmother and absorbed again the political venting of his grandfather, who had fought on the Liberal side in the War of a Thousand Days and who, at the book’s beginning, took him to discover ice, a great block of infinite internal needles that boiled his hand when he touched it.</p>]]></description>
+</item>
+<item>
+    <title>遗传异质性</title>
+    <link>http://localhost:1313/posts/genetic_heterogeneity/</link>
+    <pubDate>Fri, 17 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/posts/genetic_heterogeneity/</guid>
+    <description><![CDATA[<p>Revisiting a GWAS peak in Arabidopsis thaliana reveals possible confounding by genetic heterogeneity
+Magnus Nordborg实验室的工作
+</p>
+<h2 id="joining-the-lab">JOINING THE LAB</h2>
+<p>We are always looking for talented new group members. Backgrounds vary widely, from plant molecular biology to statistics, but everyone is expected to be willing to learn to analyze their own data.</p>
+<p>Prospective students and postdocs should <strong>write me directly, explaining what you are interested in, and why</strong>. Please attach a CV. Postdocs are expected to have at least one first-author publication in a major international journal. You are expected to be competitive for postdoctoral fellowships and apply for them if eligible (we are happy to help).</p>]]></description>
+</item>
+<item>
+    <title>Attitude</title>
+    <link>http://localhost:1313/posts/attitude/</link>
+    <pubDate>Thu, 16 Jun 2022 00:00:00 &#43;0000</pubDate>
+    <author>xxxx</author>
+    <guid>http://localhost:1313/posts/attitude/</guid>
+    <description><![CDATA[<p>抓住真正重要的东西，忽略不重要的东西。</p>
+<ul>
+<li>混合线性模型</li>
+</ul>
+<p>数学技能的缺失阻碍了更加深入的思考。（也就是不能精确的描述一个问题）</p>]]></description>
 </item>
 </channel>
 </rss>
