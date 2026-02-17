@@ -1,15 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>实验 - Tag - LoveIt</title>
-        <link>https://zyqi17.github.io/tags/%E5%AE%9E%E9%AA%8C/</link>
-        <description>实验 - Tag - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 12 May 2022 16:04:34 &#43;0800</lastBuildDate><atom:link href="https://zyqi17.github.io/tags/%E5%AE%9E%E9%AA%8C/" rel="self" type="application/rss+xml" /><item>
-    <title>酵母实验</title>
-    <link>https://zyqi17.github.io/%E9%85%B5%E6%AF%8D%E5%AE%9E%E9%AA%8C/</link>
-    <pubDate>Thu, 12 May 2022 16:04:34 &#43;0800</pubDate>
-    <author>zyqi</author>
-    <guid>https://zyqi17.github.io/%E9%85%B5%E6%AF%8D%E5%AE%9E%E9%AA%8C/</guid>
-    <description><![CDATA[<p>简述转录因子主要功能结构域及其结构特点和功能，并设计实验证明一个蛋白是一个转录因子</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>实验 - Tag - LoveIt</title><link>https://zyqi17.github.io/tags/%E5%AE%9E%E9%AA%8C/</link><description>实验 - Tag - LoveIt</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 12 May 2022 16:04:34 +0800</lastBuildDate><atom:link href="https://zyqi17.github.io/tags/%E5%AE%9E%E9%AA%8C/" rel="self" type="application/rss+xml"/><item><title>酵母实验</title><link>https://zyqi17.github.io/%E9%85%B5%E6%AF%8D%E5%AE%9E%E9%AA%8C/</link><pubDate>Thu, 12 May 2022 16:04:34 +0800</pubDate><author>zyqi</author><guid>https://zyqi17.github.io/%E9%85%B5%E6%AF%8D%E5%AE%9E%E9%AA%8C/</guid><description><![CDATA[<p>简述转录因子主要功能结构域及其结构特点和功能，并设计实验证明一个蛋白是一个转录因子</p>
 <ul>
 <li>亚细胞定位在细胞核</li>
 <li>酵母转录激活活性分析</li>
@@ -41,7 +30,4 @@
 <p>其基本思想是将感兴趣的两个蛋白X和Y分别融合到Gal4的DBD和AD上，这样X和Y之间的相互作用可以重建Gal4转录因子的功能，然后驱动报告基因的表达</p>
 </li>
 </ul>
-<p></p>]]></description>
-</item>
-</channel>
-</rss>
+<p></p>]]></description></item></channel></rss>

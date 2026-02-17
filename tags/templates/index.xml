@@ -1,20 +1,6 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Templates - Tag - LoveIt</title>
-        <link>https://zyqi17.github.io/tags/templates/</link>
-        <description>Templates - Tag - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 28 Jul 2014 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://zyqi17.github.io/tags/templates/" rel="self" type="application/rss+xml" /><item>
-    <title>(Hu)go Template Primer</title>
-    <link>https://zyqi17.github.io/goisforlovers/</link>
-    <pubDate>Mon, 28 Jul 2014 00:00:00 &#43;0000</pubDate>
-    <author>zyqi</author>
-    <guid>https://zyqi17.github.io/goisforlovers/</guid>
-    <description><![CDATA[<p>Hugo uses the excellent <a href="http://golang.org/" target="_blank" rel="noopener noreffer ">go</a> <a href="http://golang.org/pkg/html/template/" target="_blank" rel="noopener noreffer ">html/template</a> library for
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Templates - Tag - LoveIt</title><link>https://zyqi17.github.io/tags/templates/</link><description>Templates - Tag - LoveIt</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 28 Jul 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://zyqi17.github.io/tags/templates/" rel="self" type="application/rss+xml"/><item><title>(Hu)go Template Primer</title><link>https://zyqi17.github.io/goisforlovers/</link><pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate><author>zyqi</author><guid>https://zyqi17.github.io/goisforlovers/</guid><description><![CDATA[<p>Hugo uses the excellent <a href="http://golang.org/" target="_blank" rel="noopener noreffer ">go</a> <a href="http://golang.org/pkg/html/template/" target="_blank" rel="noopener noreffer ">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
 small amount of logic. In our experience that it is just the right amount of
 logic to be able to create a good static website. If you have used other
 template systems from different languages or frameworks you will find a lot of
-similarities in go templates.</p>]]></description>
-</item>
-</channel>
-</rss>
+similarities in go templates.</p>]]></description></item></channel></rss>

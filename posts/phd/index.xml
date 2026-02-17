@@ -1,15 +1,4 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>All 博士资格考试 - LoveIt</title>
-        <link>https://zyqi17.github.io/posts/phd/</link>
-        <description>All 博士资格考试 | LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://zyqi17.github.io/posts/phd/" rel="self" type="application/rss+xml" /><item>
-    <title>分子设计育种</title>
-    <link>https://zyqi17.github.io/%E5%88%86%E5%AD%90%E8%AE%BE%E8%AE%A1%E8%82%B2%E7%A7%8D/</link>
-    <pubDate>Thu, 12 May 2022 21:45:29 &#43;0800</pubDate>
-    <author>zyqi</author>
-    <guid>https://zyqi17.github.io/%E5%88%86%E5%AD%90%E8%AE%BE%E8%AE%A1%E8%82%B2%E7%A7%8D/</guid>
-    <description><![CDATA[<p>什么是分子设计育种，有何进展？结合熟悉的作物谈谈如何进行分子设计育种</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>All 博士资格考试 - LoveIt</title><link>https://zyqi17.github.io/posts/phd/</link><description>All 博士资格考试 | LoveIt</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://zyqi17.github.io/posts/phd/" rel="self" type="application/rss+xml"/><item><title>分子设计育种</title><link>https://zyqi17.github.io/%E5%88%86%E5%AD%90%E8%AE%BE%E8%AE%A1%E8%82%B2%E7%A7%8D/</link><pubDate>Thu, 12 May 2022 21:45:29 +0800</pubDate><author>zyqi</author><guid>https://zyqi17.github.io/%E5%88%86%E5%AD%90%E8%AE%BE%E8%AE%A1%E8%82%B2%E7%A7%8D/</guid><description><![CDATA[<p>什么是分子设计育种，有何进展？结合熟悉的作物谈谈如何进行分子设计育种</p>
 <p>分子设计育种通过多种技术的集成与整合, 对育种程序中的诸多因素进行模拟、筛选和优化, 提出最佳的符合育种目标的<strong>基因型</strong>以及实现目标基因型的<strong>亲本选配</strong>和<strong>后代选择策略</strong>, 以提高作物育种中的预见性和育种效率, 实现从传统的“<strong>经验育种</strong>”到定向、高效的“<strong>精确育种</strong>”的转化。</p>
 <p>我国的作物分子设计育种研究应集中在以下3个方面：</p>
 <ol>
@@ -23,56 +12,24 @@
 <li>
 <p>基因编辑技术</p>
 </li>
-</ol>]]></description>
-</item>
-<item>
-    <title>杂种优势</title>
-    <link>https://zyqi17.github.io/%E6%9D%82%E7%A7%8D%E4%BC%98%E5%8A%BF/</link>
-    <pubDate>Thu, 12 May 2022 21:45:29 &#43;0800</pubDate>
-    <author>zyqi</author>
-    <guid>https://zyqi17.github.io/%E6%9D%82%E7%A7%8D%E4%BC%98%E5%8A%BF/</guid>
-    <description><![CDATA[<h1 id="annotations">Annotations</h1>
+</ol>]]></description></item><item><title>杂种优势</title><link>https://zyqi17.github.io/%E6%9D%82%E7%A7%8D%E4%BC%98%E5%8A%BF/</link><pubDate>Thu, 12 May 2022 21:45:29 +0800</pubDate><author>zyqi</author><guid>https://zyqi17.github.io/%E6%9D%82%E7%A7%8D%E4%BC%98%E5%8A%BF/</guid><description><![CDATA[<h1 id="annotations">Annotations</h1>
 <p>(5/13/2022, 11:38:32 AM)</p>
 <p>“杂种优势是指两个遗传基础有差异的亲本杂交生成的杂合子在<strong>生长势</strong>和<strong>生物量</strong>等方面优于两个亲本的现象。虽然杂种优势在农业生产中已经得到很好的利用, 但对于其形成的遗传机理仍没有统一的解释。目前, 解释杂种优势遗传基础的模型主要有<strong>显性、超显性和上位性</strong>。分子数量遗传学的发展加快了杂种优势的研究。” (<a href="zotero://select/library/items/IXANM7WF" target="_blank" rel="noopener noreffer ">商连光, 2017, p. 10</a>) (<a href="zotero://open-pdf/library/items/LZXE4YUL?page=1&amp;annotation=56D3YQTC" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
 <p>“超显性假说(overdominance hypothesis)认为<strong>杂合等位基因</strong>主要通过<strong>相互作用</strong>来产生杂种优势效应” (<a href="zotero://select/library/items/IXANM7WF" target="_blank" rel="noopener noreffer ">商连光, 2017, p. 10</a>) (<a href="zotero://open-pdf/library/items/LZXE4YUL?page=1&amp;annotation=ACWZ6725" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
 <p>“<strong>非等位基因间的相互作用</strong>即上位性效应(epistasis),” (<a href="zotero://select/library/items/IXANM7WF" target="_blank" rel="noopener noreffer ">商连光, 2017, p. 11</a>) (<a href="zotero://open-pdf/library/items/LZXE4YUL?page=2&amp;annotation=XM3ZHYN5" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
 <p>“Hua等(2002)首次用水稻的强优势组合珍汕97A×明恢63的RIL构建了<strong>永久F2群体</strong>, 并进行杂种优势位点的QTL定位分析, 结果发现除了单位点外, 还有大量的双位点互作存在, 由此认为, 单位点水平上的杂种优势效应加上双位点水平上的加性×加性<strong>上位性互作</strong>是杂种优势的遗传基础。” (<a href="zotero://select/library/items/IXANM7WF" target="_blank" rel="noopener noreffer ">商连光, 2017, p. 13</a>) (<a href="zotero://open-pdf/library/items/LZXE4YUL?page=4&amp;annotation=L3H77794" target="_blank" rel="noopener noreffer ">pdf</a>)</p>
-<p>“虽然上位性互作在杂种优势的研究中已有诸多报道, 但仍缺乏精确的统计模型和方法。除了两位点互作之外, 还需关注<strong>大量的多位点互作</strong>和多点的单倍型遗传效应(Goff and Zhang, 2013)。” (<a href="zotero://select/library/items/IXANM7WF" target="_blank" rel="noopener noreffer ">商连光, 2017, p. 15</a>) (<a href="zotero://open-pdf/library/items/LZXE4YUL?page=6&amp;annotation=7ILU3QM5" target="_blank" rel="noopener noreffer ">pdf</a>)</p>]]></description>
-</item>
-<item>
-    <title>考试题目</title>
-    <link>https://zyqi17.github.io/%E8%80%83%E8%AF%95%E5%86%85%E5%AE%B9/</link>
-    <pubDate>Thu, 12 May 2022 21:30:37 &#43;0800</pubDate>
-    <author>zyqi</author>
-    <guid>https://zyqi17.github.io/%E8%80%83%E8%AF%95%E5%86%85%E5%AE%B9/</guid>
-    <description><![CDATA[<p>qtl定位</p>
+<p>“虽然上位性互作在杂种优势的研究中已有诸多报道, 但仍缺乏精确的统计模型和方法。除了两位点互作之外, 还需关注<strong>大量的多位点互作</strong>和多点的单倍型遗传效应(Goff and Zhang, 2013)。” (<a href="zotero://select/library/items/IXANM7WF" target="_blank" rel="noopener noreffer ">商连光, 2017, p. 15</a>) (<a href="zotero://open-pdf/library/items/LZXE4YUL?page=6&amp;annotation=7ILU3QM5" target="_blank" rel="noopener noreffer ">pdf</a>)</p>]]></description></item><item><title>考试题目</title><link>https://zyqi17.github.io/%E8%80%83%E8%AF%95%E5%86%85%E5%AE%B9/</link><pubDate>Thu, 12 May 2022 21:30:37 +0800</pubDate><author>zyqi</author><guid>https://zyqi17.github.io/%E8%80%83%E8%AF%95%E5%86%85%E5%AE%B9/</guid><description><![CDATA[<p>qtl定位</p>
 <p>关联分析</p>
 <p>杂种优势</p>
 <p>全基因组选择</p>
-<p>表型组学</p>]]></description>
-</item>
-<item>
-    <title>表型组学</title>
-    <link>https://zyqi17.github.io/%E8%A1%A8%E5%9E%8B%E7%BB%84%E5%AD%A6/</link>
-    <pubDate>Thu, 12 May 2022 20:53:46 &#43;0800</pubDate>
-    <author>zyqi</author>
-    <guid>https://zyqi17.github.io/%E8%A1%A8%E5%9E%8B%E7%BB%84%E5%AD%A6/</guid>
-    <description><![CDATA[<p>作物表型组学是一门全面研究作物表型信息大规模高通量精准获取和分析技术方法的交叉学科。广义的作物表型组学研究对象不仅包括物理性状，也包括生理指标、生化特征、生长发育性状，以及新颖的<strong>图像数字性状</strong>等。</p>
+<p>表型组学</p>]]></description></item><item><title>表型组学</title><link>https://zyqi17.github.io/%E8%A1%A8%E5%9E%8B%E7%BB%84%E5%AD%A6/</link><pubDate>Thu, 12 May 2022 20:53:46 +0800</pubDate><author>zyqi</author><guid>https://zyqi17.github.io/%E8%A1%A8%E5%9E%8B%E7%BB%84%E5%AD%A6/</guid><description><![CDATA[<p>作物表型组学是一门全面研究作物表型信息大规模高通量精准获取和分析技术方法的交叉学科。广义的作物表型组学研究对象不仅包括物理性状，也包括生理指标、生化特征、生长发育性状，以及新颖的<strong>图像数字性状</strong>等。</p>
 <p>以<strong>智能化、高通量、动态无损测量</strong>为主要特征的表型组学技术迅猛发展，使得多时空多尺度表型检测成为可能，可实现作物全生育期表型动态精准鉴定。</p>
 <p>近日，《基因组生物学》在线发表了华中农业大学作物遗传改良国家重点实验室和湖北省洪山实验室教授代明球与杨万能团队的最新研究成果。他们借助表型组学技术对玉米的干旱表型进行<strong>连续无损检测</strong>，获得了丰富的图像性状，构建了基因—表型关联网络，揭示了玉米抗旱的遗传基础以及潜在抗旱位点。研究人员利用华中农业大学高通量作物表型平台，结合<strong>高光谱、微型CT、RGB多光学成像技术</strong>对368份玉米自然群体材料，在多个生长时期、正常浇水和干旱胁迫下的玉米表型进行了连续无损检测。</p>
 <p>在实际应用中，通过高光谱技术可无损提取作物<strong>叶绿素、水分</strong>等生理生化和抗旱相关的代谢物指标。研究人员自主研发的高通量高光谱成像系统最高效率可达44秒/株。</p>
 <p>CT成像的基本原理是高能粒子的穿透能力。作物不同器官组织对X射线吸收存在差异，以CT重建原理技术将作物内部不同器官组织的吸收差异重建出来。在实际应用中可以无损检测作物内部结构及相应表型性状，比如<strong>茎壁厚、茎壁面积、维管束面积</strong>等茎秆内部表型性状。据悉，他们自主研发的高通量CT成像系统最高效率可达5分钟/株。</p>
 <p>RGB成像可以反映植物的<strong>大小、颜色、形态</strong>、纹理等信息，在实际应用中为面扫描模式。他们自主研发的RGB成像系统最高效率可达37秒/株。</p>
 <p>他们这套新方法从群体水平结合多种高通量光学表型手段，实现了高通量全生育期获取玉米表型，并筛选出干旱相关图像表型，再结合多组学（代谢组、转录组）数据及全基因组关联分析进行玉米抗旱候选基因的高效挖掘。</p>
-<p>High-throughput (HTP) plant phenotyping approaches are developing rapidly and are already helping to bridge the genotype–phenotype gap. However, technologies should be developed beyond current physico-spectral evaluations to extend our analytical capacities to the subcellular level. Metabolites define and determine many key physiological and agronomic features in plants and an ability to integrate a metabolomics approach within current HTP phenotyping platforms has huge potential for added value. While key challenges remain on several fronts, novel technological innovations are upcoming yet under-exploited in a phenotyping context. In this review, we present an overview of the state of the art and how current limitations might be overcome to enable full integration of metabolomics approaches into a generic phenotyping pipeline in the near future.</p>]]></description>
-</item>
-<item>
-    <title>酵母实验</title>
-    <link>https://zyqi17.github.io/%E9%85%B5%E6%AF%8D%E5%AE%9E%E9%AA%8C/</link>
-    <pubDate>Thu, 12 May 2022 16:04:34 &#43;0800</pubDate>
-    <author>zyqi</author>
-    <guid>https://zyqi17.github.io/%E9%85%B5%E6%AF%8D%E5%AE%9E%E9%AA%8C/</guid>
-    <description><![CDATA[<p>简述转录因子主要功能结构域及其结构特点和功能，并设计实验证明一个蛋白是一个转录因子</p>
+<p>High-throughput (HTP) plant phenotyping approaches are developing rapidly and are already helping to bridge the genotype–phenotype gap. However, technologies should be developed beyond current physico-spectral evaluations to extend our analytical capacities to the subcellular level. Metabolites define and determine many key physiological and agronomic features in plants and an ability to integrate a metabolomics approach within current HTP phenotyping platforms has huge potential for added value. While key challenges remain on several fronts, novel technological innovations are upcoming yet under-exploited in a phenotyping context. In this review, we present an overview of the state of the art and how current limitations might be overcome to enable full integration of metabolomics approaches into a generic phenotyping pipeline in the near future.</p>]]></description></item><item><title>酵母实验</title><link>https://zyqi17.github.io/%E9%85%B5%E6%AF%8D%E5%AE%9E%E9%AA%8C/</link><pubDate>Thu, 12 May 2022 16:04:34 +0800</pubDate><author>zyqi</author><guid>https://zyqi17.github.io/%E9%85%B5%E6%AF%8D%E5%AE%9E%E9%AA%8C/</guid><description><![CDATA[<p>简述转录因子主要功能结构域及其结构特点和功能，并设计实验证明一个蛋白是一个转录因子</p>
 <ul>
 <li>亚细胞定位在细胞核</li>
 <li>酵母转录激活活性分析</li>
@@ -104,7 +61,4 @@
 <p>其基本思想是将感兴趣的两个蛋白X和Y分别融合到Gal4的DBD和AD上，这样X和Y之间的相互作用可以重建Gal4转录因子的功能，然后驱动报告基因的表达</p>
 </li>
 </ul>
-<p></p>]]></description>
-</item>
-</channel>
-</rss>
+<p></p>]]></description></item></channel></rss>
